@@ -1,0 +1,186 @@
+{
+  "P": [
+    {
+      "id": "blame",
+      "name": "指责",
+      "cluster": "blame",
+      "definition": "将不当行为或后果归于对象并作负面规范评价。",
+      "boundary": "可以不要求回应，也不需要对象在场。",
+      "status": "工作假说"
+    },
+    {
+      "id": "criticism",
+      "name": "批评",
+      "cluster": "blame",
+      "definition": "指出对象的缺点或不足。",
+      "boundary": "针对作品或论证时未必对人归责。",
+      "status": "工作假说"
+    },
+    {
+      "id": "reproach",
+      "name": "责备",
+      "cluster": "blame",
+      "definition": "围绕对象本应做到而未做到的期待落差加以责难。",
+      "boundary": "与指责高度重合；关系性期待是否稳定待证。",
+      "status": "工作假说"
+    },
+    {
+      "id": "accusation",
+      "name": "控诉",
+      "cluster": "blame",
+      "definition": "向可受理或见证的受众提出不公或侵害指控。",
+      "boundary": "不要求正式诉讼；被指控事实仍需独立核实。",
+      "status": "工作假说"
+    },
+    {
+      "id": "condemnation",
+      "name": "谴责",
+      "cluster": "blame",
+      "definition": "表达强烈的规范性否定。",
+      "boundary": "公共性常见但不是已确立必要条件。",
+      "status": "工作假说"
+    },
+    {
+      "id": "request",
+      "name": "请求",
+      "cluster": "pleading",
+      "definition": "促请受话者做某事。",
+      "boundary": "不必涉及处置或宽宥。",
+      "status": "工作假说"
+    },
+    {
+      "id": "entreaty",
+      "name": "恳求",
+      "cluster": "pleading",
+      "definition": "以恳切姿态提出请求。",
+      "boundary": "是否独立 P，还是请求的方式标签，待议。",
+      "status": "工作假说"
+    },
+    {
+      "id": "clemency",
+      "name": "求情",
+      "cluster": "pleading",
+      "definition": "向能改变或影响不利处置者请求宽宥。",
+      "boundary": "可为自己或他人；不以认罪为必要条件。",
+      "status": "工作假说"
+    },
+    {
+      "id": "mercy",
+      "name": "求饶",
+      "cluster": "pleading",
+      "definition": "请求停止或免除针对自身的处罚或伤害。",
+      "boundary": "可与求情重叠；处置未必制度化。",
+      "status": "工作假说"
+    },
+    {
+      "id": "supplication",
+      "name": "哀求",
+      "cluster": "pleading",
+      "definition": "以悲切、痛苦姿态提出请求。",
+      "boundary": "更可能涉及方式或情绪轴，暂不固化为独立 P。",
+      "status": "工作假说"
+    }
+  ],
+  "O": [
+    {
+      "id": "evidence",
+      "name": "援引事实",
+      "definition": "引用可指认的事件或材料支持当前说法。",
+      "boundary": "引用不等于所引事实已证实。",
+      "status": "工作假说"
+    },
+    {
+      "id": "attribution",
+      "name": "归因",
+      "definition": "把行为或后果与原因、责任主体联系起来。",
+      "boundary": "原因归属不自动等于道德归责。",
+      "status": "工作假说"
+    },
+    {
+      "id": "rhetorical-question",
+      "name": "反问",
+      "definition": "借问句推进一个预期显明的判断。",
+      "boundary": "普通信息提问不是反问；需上下文。",
+      "status": "工作假说"
+    },
+    {
+      "id": "analogy",
+      "name": "类比",
+      "definition": "以另一情境的相似关系说明当前情境。",
+      "boundary": "单纯并列两个对象不一定类比。",
+      "status": "工作假说"
+    },
+    {
+      "id": "acknowledgment",
+      "name": "承认",
+      "definition": "接受先前提出的事实或责任作为后续表达基础。",
+      "boundary": "引述别人主张不等于本人承认。",
+      "status": "工作假说"
+    },
+    {
+      "id": "explanation",
+      "name": "解释",
+      "definition": "说明原因、条件或机制使内容可理解。",
+      "boundary": "解释可以不辩护，也不必消除责任。",
+      "status": "工作假说"
+    },
+    {
+      "id": "alternative",
+      "name": "提出替代方案",
+      "definition": "用另一处置或行动替换当前方案。",
+      "boundary": "单纯反对而未提出替代不算。",
+      "status": "工作假说"
+    },
+    {
+      "id": "relationship",
+      "name": "援引关系",
+      "definition": "以旧恩、亲属、承诺等关系作为行动理由。",
+      "boundary": "提到关系不一定把它用作理由。",
+      "status": "工作假说"
+    }
+  ],
+  "S": [
+    {
+      "id": "direct",
+      "name": "直接",
+      "definition": "较明确地说出判断或所求行动。",
+      "boundary": "直接不等于粗鲁，间接也不等于礼貌。",
+      "status": "工作假说"
+    },
+    {
+      "id": "mitigated",
+      "name": "委婉",
+      "definition": "以缓和或间接方式降低表达的强硬感。",
+      "boundary": "须结合语境；有“请”不自动成立。",
+      "status": "工作假说"
+    },
+    {
+      "id": "restrained",
+      "name": "克制",
+      "definition": "避免情绪性强化，保持有限、审慎的措辞。",
+      "boundary": "文字简短不证明情绪被克制。",
+      "status": "工作假说"
+    },
+    {
+      "id": "stern",
+      "name": "严厉",
+      "definition": "以明显不容轻忽的责难或要求呈现。",
+      "boundary": "不等于说话者实际愤怒。",
+      "status": "工作假说"
+    },
+    {
+      "id": "humorous",
+      "name": "幽默",
+      "definition": "借错位、双关等营造诙谐效果。",
+      "boundary": "说话者意图逗趣与听者发笑仍要区分。",
+      "status": "工作假说"
+    },
+    {
+      "id": "earnest",
+      "name": "恳切",
+      "definition": "以郑重、迫切等表达呈现强烈请求意愿。",
+      "boundary": "不是对真实诚意的心理鉴定。",
+      "status": "工作假说"
+    }
+  ]
+}
