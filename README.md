@@ -34,7 +34,7 @@
 目录例句主要是构造的教学对照，不能冒充自然语料。共同案例库共 20 条记录，其中 10 条有出处的古典、文学或制度性文本片段、10 条构造材料。古典与文学对话不等于真实历史录音；制度性文本片段也不能代表日常会话分布。原话、行为分析、实际结果分开保存。
 
 ## 浏览方式
-默认进入 P；按功能组浏览，或搜索名称、别名、定义、边界与例句。支持常用简繁词的规范化检索。切换 P/O/S 可查看同一案例的不同侧面；每个案例保留稳定 `#case-Q01` 等深链接。
+采用与参考项目一致的连续文档：左侧 P/O/S → 功能组 → 条目三级树，右侧窄栏正文。根节点与功能组可展开/收起，点击目录定位而不隐藏其他章节；默认可直接读定义和例句，详细边界按需展开。顶部全局搜索同时筛选正文和目录，支持常用简繁词及匹配高亮。手机目录为抽屉，可用遮罩或 Esc 关闭。保留 `#case-Q01`、`#entry-P-apologize` 等旧链接与明确的历史别名映射。
 
 ## 本地运行
 ```sh
@@ -49,9 +49,11 @@ python -m http.server 8000
 npm install --prefix /tmp/taxonomy-test jsdom
 node scripts/dom-smoke.cjs
 ```
+前端 v3 的新增交互测试详见 [前端验收](docs/frontend-v3.md)。
+
 可选真实浏览器验收：安装 Playwright 与 Chromium 后运行 `node scripts/browser-smoke.cjs`。支持 `BASE_URL`、`CHROMIUM_PATH`、`SCREENSHOT_PATH`。DOM 测试不代替视觉或真实浏览器验收。
 
 ## 结构与发布
-沿用 [semantic-direction-taxonomy](https://github.com/liamamilin/semantic-direction-taxonomy) 的静态目录思路，代码和分类内容重新编写。数据在 `data/catalogs.json` 与 `data/cases.json`，论证保留在 Markdown。JSON 是可修订的运输格式，不是本体标准定稿。
+沿用 [semantic-direction-taxonomy](https://github.com/liamamilin/semantic-direction-taxonomy) 的静态目录思路，分类内容保持不变；本次前端按所有者明确要求参考该项目，沿用其 CSS 阅读布局并适配 P/O/S，交互脚本独立编写。数据在 `data/catalogs.json` 与 `data/cases.json`，论证保留在 Markdown。JSON 是可修订的运输格式，不是本体标准定稿。
 
 GitHub Actions 先做完整性检查，再只将 `index.html`、`css/`、`js/`、`data/` 发布到 Pages。源仓库公开；站点不收集用户信息。原创代码/文本未另行授予开源许可证；古典引文与现代研究材料的来源权利说明见 [来源](docs/sources.md)。
