@@ -18,3 +18,10 @@
 
 ## 尚未收集
 本版没有现代自然会话语料库样本，没有统计代表性结论，也没有已完成的语料授权清单。构造案例必须显示“构造”，不得在网站或导出中移除此标识。
+
+## 扩展版新增来源
+- P-S01–03：[澳大利亚政府道歉动议逐字稿](https://www.indigenous.gov.au/reconciliation)。核对道歉、交话轮、提出动议三处；同页合计短引 25 个英文词。分析不表示所有受影响者已接受道歉。
+- P-S04：[美国国家档案馆《解放宣言》](https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation/transcript.html)。保留省略号与指定地域限制，不把制度宣告等同于所有人即时获得现实自由。
+- P-S05–06：[《烛之武退秦师》](https://zh.wikisource.org/wiki/燭之武退秦師)。页面固定版本 oldid=2444900；原文中认过与劝秦撤军分别分析，后续结果不归因于单句。
+
+新增案例页均在 2026-11-17 打开核对；完整角色、定位、权利说明见 data/cases.json。P 理论设计参照见 [目的方法](purpose-method.md)，O/S 参照见 [操作与风格](operations-and-style.md)。所有来源都是分析材料或概念参照，不能据此声称 93 个 P、43 个 O、12 个 S 已获全面语料验证。

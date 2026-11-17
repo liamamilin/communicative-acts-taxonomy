@@ -1,0 +1,64 @@
+{
+  "O": {
+    "evidence": {
+      "id": "evidence",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "relationship": {
+      "id": "relationship",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "attribution": {
+      "id": "attribution",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "explanation": {
+      "id": "explanation",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "analogy": {
+      "id": "analogy",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "acknowledgment": {
+      "id": "acknowledgment",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "alternative": {
+      "id": "alternative",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    },
+    "rhetorical-question": {
+      "id": "rhetorical-question",
+      "note": "旧 ID 保留；定义收紧，旧例仍须复核。"
+    }
+  },
+  "S": {
+    "direct": {
+      "dimensionId": "directness",
+      "setting": "直接"
+    },
+    "mitigated": {
+      "dimensionId": "mitigation",
+      "setting": "高缓冲",
+      "note": "旧委婉混有间接性，不能自动把所有旧例再映射到间接；逐例复核。"
+    },
+    "restrained": {
+      "dimensionId": "affect-display",
+      "setting": "克制"
+    },
+    "stern": {
+      "dimensionId": "force",
+      "setting": "强硬"
+    },
+    "humorous": {
+      "dimensionId": "playfulness",
+      "setting": "诙谐"
+    },
+    "earnest": {
+      "dimensionId": null,
+      "setting": null,
+      "note": "恳切是郑重、迫切及关系姿态的情境性组合；保留旧描述但不推断真实诚意，不自动落单一维度。"
+    }
+  }
+}

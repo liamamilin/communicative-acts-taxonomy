@@ -48,10 +48,27 @@
         "attribution"
       ],
       "S": [
+        "force"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "blame",
+        "criticism"
+      ],
+      "O": [
+        "analogy",
+        "rhetorical-question",
+        "attribution"
+      ],
+      "S": [
         "stern"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "force": "强硬"
+    }
   },
   {
     "id": "Q01",
@@ -102,10 +119,27 @@
         "acknowledgment"
       ],
       "S": [
+        "mitigation"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "clemency",
+        "request"
+      ],
+      "O": [
+        "relationship",
+        "alternative",
+        "acknowledgment"
+      ],
+      "S": [
         "mitigated"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "mitigation": "高缓冲"
+    }
   },
   {
     "id": "Q02",
@@ -154,10 +188,25 @@
         "relationship"
       ],
       "S": [
+        "mitigation"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "clemency",
+        "request"
+      ],
+      "O": [
+        "relationship"
+      ],
+      "S": [
         "mitigated"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "mitigation": "高缓冲"
+    }
   },
   {
     "id": "Q03",
@@ -202,11 +251,21 @@
       "O": [
         "explanation"
       ],
+      "S": []
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "request"
+      ],
+      "O": [
+        "explanation"
+      ],
       "S": [
         "earnest"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {}
   },
   {
     "id": "B02",
@@ -241,10 +300,22 @@
       ],
       "O": [],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "criticism"
+      ],
+      "O": [],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "B03",
@@ -284,11 +355,28 @@
         "attribution"
       ],
       "S": [
+        "directness",
+        "force"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "blame",
+        "criticism"
+      ],
+      "O": [
+        "attribution"
+      ],
+      "S": [
         "direct",
         "stern"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接",
+      "force": "强硬"
+    }
   },
   {
     "id": "B04",
@@ -317,10 +405,20 @@
       "P": [],
       "O": [],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [],
+      "O": [],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "B05",
@@ -357,10 +455,24 @@
         "attribution"
       ],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "blame"
+      ],
+      "O": [
+        "attribution"
+      ],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "B06",
@@ -390,7 +502,13 @@
       "O": [],
       "S": []
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [],
+      "O": [],
+      "S": []
+    },
+    "styleSettings": {}
   },
   {
     "id": "Q04",
@@ -425,10 +543,22 @@
       ],
       "O": [],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "request"
+      ],
+      "O": [],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "Q05",
@@ -469,10 +599,26 @@
         "alternative"
       ],
       "S": [
+        "mitigation"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "clemency",
+        "request"
+      ],
+      "O": [
+        "acknowledgment",
+        "alternative"
+      ],
+      "S": [
         "mitigated"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "mitigation": "高缓冲"
+    }
   },
   {
     "id": "Q06",
@@ -509,10 +655,24 @@
         "alternative"
       ],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "request"
+      ],
+      "O": [
+        "alternative"
+      ],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "Q07",
@@ -547,10 +707,22 @@
       ],
       "O": [],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "request"
+      ],
+      "O": [],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
   },
   {
     "id": "Q08",
@@ -591,9 +763,267 @@
         "alternative"
       ],
       "S": [
+        "directness"
+      ]
+    },
+    "axis_note": "修订版暂定分析，原标签保存在 legacyAxes。S 由原形容词迁移到维度取值，不据此推断真实心理；无充分证据保留未知。",
+    "legacyAxes": {
+      "P": [
+        "clemency",
+        "request"
+      ],
+      "O": [
+        "acknowledgment",
+        "alternative"
+      ],
+      "S": [
         "direct"
       ]
     },
-    "axis_note": "分析性暂标，非原作者标签；空列表表示本版未标，不表示不存在。风格需要后续复核。"
+    "styleSettings": {
+      "directness": "直接"
+    }
+  },
+  {
+    "id": "P-S01",
+    "kind": "来源文本",
+    "quote": "And for the indignity and degradation thus inflicted on a proud people and a proud culture, we say sorry.",
+    "context": "2008 年澳大利亚议会道歉动议，面向遭受过往政策伤害的原住民；本句承接对家庭分离和伤害的叙述。",
+    "roles": "Kevin Rudd 以总理身份提出动议；道歉对象为澳大利亚原住民。",
+    "axes": {
+      "P": [
+        "apologize"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "国家代表性道歉不等于说话者本人实施过所述行为；不能据此认定所有对象已原谅。",
+    "outcome": "此片段本身不证明实际效果。",
+    "source": {
+      "title": "Apology to Australia’s Indigenous peoples, transcript",
+      "url": "https://www.indigenous.gov.au/reconciliation",
+      "locator": "Apology Transcript，第三个 we say sorry 段",
+      "rights": "© Commonwealth of Australia；仅引用 19 个英文词作分析，不声称全文开放许可，不转载音视频。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "apologize"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "2008 年澳大利亚议会道歉动议，面向遭受过往政策伤害的原住民；本句承接对家庭分离和伤害的叙述。",
+    "certainty": "有来源，分析待复核"
+  },
+  {
+    "id": "P-S02",
+    "kind": "来源文本",
+    "quote": "Prime Minister.",
+    "context": "议长在书记员读出道歉动议议程后，将发言机会交给总理。",
+    "roles": "议长 Harry Jenkins → 总理 Kevin Rudd。",
+    "axes": {
+      "P": [
+        "give-turn"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "孤立的职务称呼可能是称呼或介绍；这里依上下回合判为交话轮。",
+    "outcome": "此片段本身不证明实际效果。",
+    "source": {
+      "title": "Apology to Australia’s Indigenous peoples, transcript",
+      "url": "https://www.indigenous.gov.au/reconciliation",
+      "locator": "The Speaker: Prime Minister.",
+      "rights": "© Commonwealth of Australia；短引文 2 个词。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "give-turn"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "议长在书记员读出道歉动议议程后，将发言机会交给总理。",
+    "certainty": "有来源，分析待复核"
+  },
+  {
+    "id": "P-S03",
+    "kind": "来源文本",
+    "quote": "Mr Speaker, I move:",
+    "context": "总理取得发言权后正式提出后续道歉动议，动议正文紧随其后。",
+    "roles": "总理 → 议长及议会。",
+    "axes": {
+      "P": [
+        "propose"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "提出动议不等于已通过；后续句子可另外实施道歉。",
+    "outcome": "此片段本身不证明实际效果。",
+    "source": {
+      "title": "Apology to Australia’s Indigenous peoples, transcript",
+      "url": "https://www.indigenous.gov.au/reconciliation",
+      "locator": "Prime Minister (Hon Kevin Rudd MP): Mr Speaker, I move:",
+      "rights": "© Commonwealth of Australia；短引文 4 个词；与同页另外两条合计 25 个英文词。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "propose"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "总理取得发言权后正式提出后续道歉动议，动议正文紧随其后。",
+    "certainty": "有来源，分析待复核"
+  },
+  {
+    "id": "P-S04",
+    "kind": "来源文本",
+    "quote": "I do order and declare … are, and henceforward shall be free",
+    "context": "1863 年 1 月 1 日《解放宣言》规定指定州及州内地区中被奴役者的身份；省略处限定了适用地域与人群，并非全部美国领土。",
+    "roles": "Abraham Lincoln 以总统和战时统帅身份。",
+    "axes": {
+      "P": [
+        "declare-status"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "制度性状态宣告与即时现实自由不同；不可把适用范围扩大，也不把该句只当普通预测。",
+    "outcome": "此片段本身不证明实际效果。",
+    "source": {
+      "title": "Transcript of the Emancipation Proclamation",
+      "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation/transcript.html",
+      "locator": "And by virtue of the power… 段；引文为两个连续片段，中间省略已显式标出。",
+      "rights": "1863 年美国联邦政府文书，公有领域；未复制网页设计或图像。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "declare-status"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "1863 年 1 月 1 日《解放宣言》规定指定州及州内地区中被奴役者的身份；省略处限定了适用地域与人群，并非全部美国领土。",
+    "certainty": "有来源，分析待复核"
+  },
+  {
+    "id": "P-S05",
+    "kind": "来源文本",
+    "quote": "吾不能早用子，今急而求子，是寡人之過也。",
+    "context": "郑伯在烛之武以年老为由辞谢出使后，承认自己没有及早任用他。",
+    "roles": "郑伯 → 烛之武。",
+    "axes": {
+      "P": [
+        "admit-fault"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "可参与修复关系，但未出现明确致歉公式；不能仅凭认过强行判为完整道歉。",
+    "outcome": "此片段本身不证明实际效果。",
+    "source": {
+      "title": "《左传·僖公三十年》烛之武退秦师",
+      "url": "https://zh.wikisource.org/w/index.php?title=燭之武退秦師&oldid=2444900",
+      "locator": "第二段，公曰",
+      "rights": "先秦原作公有领域（页面明示）；仅原文短引，未复制现代注译。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "admit-fault"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "郑伯在烛之武以年老为由辞谢出使后，承认自己没有及早任用他。",
+    "certainty": "有来源，分析待复核"
+  },
+  {
+    "id": "P-S06",
+    "kind": "来源文本",
+    "quote": "焉用亡鄭以陪鄰？鄰之厚，君之薄也。",
+    "context": "烛之武对秦伯指出灭郑将增强晋国、损害秦国利益，争取秦国撤军。",
+    "roles": "烛之武 → 秦伯。",
+    "axes": {
+      "P": [
+        "persuade",
+        "argue"
+      ],
+      "O": [],
+      "S": []
+    },
+    "alternative": "问句并非索取未知答案；劝秦撤军、劝阻灭郑的行动目标与利益论证可并标。",
+    "outcome": "篇中后续叙述秦伯与郑结盟并退军；不能单独归因于此一句。",
+    "source": {
+      "title": "《左传·僖公三十年》烛之武退秦师",
+      "url": "https://zh.wikisource.org/w/index.php?title=燭之武退秦師&oldid=2444900",
+      "locator": "第三段，见秦伯曰",
+      "rights": "先秦原作公有领域；仅原文短引。",
+      "accessed": "2026-11-17",
+      "verification": "原文页已打开并核对原句；功能是本项目分析，不是原作者标注。"
+    },
+    "axis_note": "仅复核 P；O/S 未标不表示不存在。历史文本中的言语不等同于现代自然会话采样。",
+    "cluster": "extended",
+    "cop": {
+      "P": [
+        "persuade",
+        "argue"
+      ],
+      "C": [
+        "参与者、对象及条件见语境；尚未单独编码"
+      ],
+      "O": [
+        "未单独标注"
+      ]
+    },
+    "style": "未单独编码；不从原话推断真实心理。",
+    "content": "烛之武对秦伯指出灭郑将增强晋国、损害秦国利益，争取秦国撤军。",
+    "certainty": "有来源，分析待复核"
   }
 ]
