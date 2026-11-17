@@ -57,3 +57,5 @@ node scripts/dom-smoke.cjs
 沿用 [semantic-direction-taxonomy](https://github.com/liamamilin/semantic-direction-taxonomy) 的静态目录思路，分类内容保持不变；本次前端按所有者明确要求参考该项目，沿用其 CSS 阅读布局并适配 P/O/S，交互脚本独立编写。数据在 `data/catalogs.json` 与 `data/cases.json`，论证保留在 Markdown。JSON 是可修订的运输格式，不是本体标准定稿。
 
 GitHub Actions 先做完整性检查，再只将 `index.html`、`css/`、`js/`、`data/` 发布到 Pages。源仓库公开；站点不收集用户信息。原创代码/文本未另行授予开源许可证；古典引文与现代研究材料的来源权利说明见 [来源](docs/sources.md)。
+
+阅读打磨：固定三轴快捷导航与当前位置；搜索展示命中字段和摘句，不匹配机器字段名。详情见 [前端记录](docs/frontend-v3.md)。
