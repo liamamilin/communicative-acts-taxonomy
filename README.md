@@ -24,7 +24,7 @@
 
 ## 阅读路线
 - [P 的分类方法与覆盖](docs/purpose-method.md) / [32 个场景的边界检查](docs/coverage.md)
-- [三个轴如何共同工作](docs/three-axes.md)
+- [三个轴如何共同工作](docs/three-axes.md) / [近邻辨析：同一句话究竟在做什么](docs/contrast-guide.md)
 - [范围与概念层次](docs/scope.md)
 - [O / S 的维度和操作边界](docs/operations-and-style.md)
 - [指责深描](clusters/blame.md) / [求情深描](clusters/pleading.md)

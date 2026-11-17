@@ -36,24 +36,24 @@
   "S": {
     "direct": {
       "dimensionId": "directness",
-      "setting": "直接"
+      "setting": "明说行动"
     },
     "mitigated": {
       "dimensionId": "mitigation",
-      "setting": "高缓冲",
+      "setting": "较多缓冲",
       "note": "旧委婉混有间接性，不能自动把所有旧例再映射到间接；逐例复核。"
     },
     "restrained": {
       "dimensionId": "affect-display",
-      "setting": "克制"
+      "setting": "较克制"
     },
     "stern": {
       "dimensionId": "force",
-      "setting": "强硬"
+      "setting": "较强硬"
     },
     "humorous": {
       "dimensionId": "playfulness",
-      "setting": "诙谐"
+      "setting": "诙谐表达"
     },
     "earnest": {
       "dimensionId": null,

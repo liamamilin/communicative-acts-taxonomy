@@ -5,6 +5,7 @@ r=Path(__file__).resolve().parents[1]
 cat=json.loads((r/'data/catalogs.json').read_text());cs=json.loads((r/'data/cases.json').read_text())
 assert set(cat)=={'P','O','S'}
 lookup={}
+styles={e['id']:set(e['settings']) for g in cat['S']['groups'] for e in g['entries']}
 for axis,section in cat.items():
  groups=section['groups'];assert groups
  assert len({g['id'] for g in groups})==len(groups)
@@ -21,6 +22,17 @@ for axis,section in cat.items():
    for ex in examples:
     assert ex.get('text') and ex.get('kind'),(axis,e['id'],'example labels')
     if ex['kind']!='构造':assert ex.get('source',{}).get('url','').startswith('https://'),(axis,e['id'],'source')
+for axis in ('O','S'):
+ for g in cat[axis]['groups']:
+  for e in g['entries']:
+   assert e.get('contrastCriterion'),(axis,e['id'],'missing contrast criterion')
+   pair=e.get('pairedExamples',[])
+   assert len(pair)==2 and all(ex['kind']=='构造' and ex.get('context') for ex in pair),(axis,e['id'],'missing controlled examples or context')
+   if axis=='S':assert {ex['setting'] for ex in pair}=={e['settings'][0],e['settings'][-1]},(axis,e['id'],'style endpoints')
+for g in cat['P']['groups']:
+ for e in g['entries']:
+  for t in e.get('relatedTerms',[]):
+   assert t.get('term') and t.get('condition') and set(t['routes'])<=lookup['P'],(e['id'],t)
 for t in cat['P'].get('coverage',[]):
  assert t['entryIds'] and set(t['entryIds'])<=lookup['P'],t
  assert t.get('discrimination'),t
@@ -31,7 +43,11 @@ print('CATALOG', '; '.join(f"{a}: {len(v['groups'])} groups / {len(lookup[a])} e
 assert len({c['id'] for c in cs})==len(cs)
 for c in cs:
  assert all(c.get(k) for k in ('id','kind','quote','context','roles','alternative','cop','style','content','outcome','axis_note'))
- for a,ids in c['axes'].items():assert set(ids)<=lookup[a],(c['id'],a,ids)
+ assert c.get('decisionCue'),(c['id'],'missing decision evidence')
+ assert set(c['axes'])==set(lookup),(c['id'],'axes')
+ for a,ids in c['axes'].items():assert len(ids)==len(set(ids)) and set(ids)<=lookup[a],(c['id'],a,ids)
+ assert set(c.get('styleSettings',{}))==set(c['axes']['S']),(c['id'],'style axes and values differ')
+ for k,v in c.get('styleSettings',{}).items():assert v in styles[k],(c['id'],k,v)
  if c['kind']=='构造':assert c['source'] is None
  else:assert c['source']['url'].startswith('https://')
 for f in r.rglob('*.md'):
