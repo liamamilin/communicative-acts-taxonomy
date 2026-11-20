@@ -26,7 +26,33 @@
               "context": "组织者刚收到改期消息，向尚未获知的参会者更新安排；不是回答对方先前的问题。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "inform",
+                  "meaning": "告知，较正式",
+                  "pattern": "inform someone of something / inform someone that …"
+                },
+                {
+                  "word": "notify",
+                  "meaning": "通知，常用于正式消息",
+                  "pattern": "notify someone of something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Just letting you know, the meeting has moved to three.",
+                  "zh": "跟你说一声，会议改到三点了。"
+                },
+                {
+                  "en": "We would like to inform you that your application has been received.",
+                  "zh": "我们特此告知，已收到你的申请。"
+                }
+              ],
+              "note": "inform、notify 都通常要接接收者；日常口语常用 let someone know。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "answer",
@@ -43,7 +69,33 @@
               "context": "对方刚问“这项工作由谁负责”，说话者提供所求的人名。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "answer",
+                  "meaning": "回答具体问题",
+                  "pattern": "answer a question"
+                },
+                {
+                  "word": "respond",
+                  "meaning": "作出回应",
+                  "pattern": "respond to a question"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You asked who is in charge. It's Maya.",
+                  "zh": "你问谁负责，是玛雅。"
+                },
+                {
+                  "en": "The answer to your question is yes.",
+                  "zh": "你这个问题的答案是肯定的。"
+                }
+              ],
+              "note": "respond 比 answer 宽，回应不一定提供所问的答案。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "confirm",
@@ -60,7 +112,33 @@
               "context": "对方提出“会议是明天吧”这一候选事实，说话者予以肯定；没有承接新的行动。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "confirm",
+                  "meaning": "确认候选事实",
+                  "pattern": "confirm that …"
+                },
+                {
+                  "word": "verify",
+                  "meaning": "核实信息",
+                  "pattern": "verify a detail"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Yes, the meeting is tomorrow.",
+                  "zh": "对，会议在明天。"
+                },
+                {
+                  "en": "I can confirm that we received your payment.",
+                  "zh": "我可以确认，我们已收到你的付款。"
+                }
+              ],
+              "note": "verify 偏核验过程；confirm 可用来给出确认，均不等于答应行动。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "correct",
@@ -77,7 +155,33 @@
               "context": "对方一直误以为会议在周二，说话者依据日程表提供替代日期；不是纠正自己的口误。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "correct",
+                  "meaning": "纠正错误",
+                  "pattern": "correct a mistake"
+                },
+                {
+                  "word": "rectify",
+                  "meaning": "修正，较正式",
+                  "pattern": "rectify an error"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Actually, the deadline is Friday, not Thursday.",
+                  "zh": "其实截止日期是周五，不是周四。"
+                },
+                {
+                  "en": "Let me correct that: the total is eighty dollars.",
+                  "zh": "我纠正一下：总额是八十美元。"
+                }
+              ],
+              "note": "例句针对事实或数字错误；若只是说错词而原意未变，归入表达修复。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "explain",
@@ -94,7 +198,33 @@
               "context": "听者看见灯熄灭但不知道原因，说话者说明定时开关的作用；不涉及追究谁的过错。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "explain",
+                  "meaning": "解释原因或关系",
+                  "pattern": "explain something to someone"
+                },
+                {
+                  "word": "account for",
+                  "meaning": "说明原因",
+                  "pattern": "account for a change"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The train was delayed because a signal failed.",
+                  "zh": "列车因信号故障而延误。"
+                },
+                {
+                  "en": "Here's how the booking system works.",
+                  "zh": "预约系统是这样运作的。"
+                }
+              ],
+              "note": "explain something to someone，通常不用 explain someone something。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "clarify",
@@ -112,7 +242,33 @@
               "context": "听者将“便宜”理解为售价低，说话者把自己的评价范围限定到维护费。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "clarify",
+                  "meaning": "澄清含义",
+                  "pattern": "clarify what … means"
+                },
+                {
+                  "word": "clear up",
+                  "meaning": "消除误解",
+                  "pattern": "clear up a misunderstanding"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "By “soon,” I mean before the end of today.",
+                  "zh": "我说的“很快”是指今天结束前。"
+                },
+                {
+                  "en": "To be clear, I'm questioning the schedule, not your effort.",
+                  "zh": "说清楚一点，我质疑的是日程安排，不是你的付出。"
+                }
+              ],
+              "note": "澄清歧义不必改变原来的事实主张。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "remind",
@@ -129,7 +285,33 @@
               "context": "双方早已约定四点交稿，说话者担心对方忙中忘记，重新唤起该约定。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "remind",
+                  "meaning": "提醒已知事项",
+                  "pattern": "remind someone to do something"
+                },
+                {
+                  "word": "jog",
+                  "meaning": "唤起记忆",
+                  "pattern": "jog someone's memory"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Just a reminder: your appointment is at two.",
+                  "zh": "提醒一下，你预约的时间是两点。"
+                },
+                {
+                  "en": "Don't forget to bring the form we discussed.",
+                  "zh": "别忘了带我们说过的那张表。"
+                }
+              ],
+              "note": "remind 后通常接人；首次告知新情况不自动算提醒。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "predict",
@@ -146,7 +328,33 @@
               "context": "说话者根据运输速度估计到达时间，不负责运输，也没有向听者担保结果。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "predict",
+                  "meaning": "预测未来",
+                  "pattern": "predict that …"
+                },
+                {
+                  "word": "forecast",
+                  "meaning": "预测趋势或数值",
+                  "pattern": "forecast demand / growth"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I expect traffic to be heavier tomorrow.",
+                  "zh": "我预计明天交通会更拥堵。"
+                },
+                {
+                  "en": "Sales will probably rise next month.",
+                  "zh": "下个月销量可能会上升。"
+                }
+              ],
+              "note": "预测说话者将做什么，不自动承担承诺责任。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -171,7 +379,33 @@
               "context": "新加入的成员不知道谁负责，期待对方给出人名；不是明知答案后的责问。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "ask",
+                  "meaning": "询问信息",
+                  "pattern": "ask someone about something"
+                },
+                {
+                  "word": "inquire",
+                  "meaning": "询问，较正式",
+                  "pattern": "inquire about something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "What time does the office open?",
+                  "zh": "办公室几点开门？"
+                },
+                {
+                  "en": "Who should I contact about the booking?",
+                  "zh": "预约的事我应该联系谁？"
+                }
+              ],
+              "note": "inquire 较正式；此处问题需要对方补充未知内容。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ask-verification",
@@ -189,7 +423,33 @@
               "context": "说话者看到一份可能昨天签署的合同，把签署日期交给知情者核实。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "check",
+                  "meaning": "核对候选信息",
+                  "pattern": "check whether …"
+                },
+                {
+                  "word": "verify",
+                  "meaning": "核实",
+                  "pattern": "verify whether …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Is it true that the office closes at five?",
+                  "zh": "办公室五点关门，是真的吗？"
+                },
+                {
+                  "en": "Could you confirm whether this is the latest version?",
+                  "zh": "你能确认一下这是不是最新版本吗？"
+                }
+              ],
+              "note": "问题提出候选事实并等待核实，不等于已确认。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ask-reason",
@@ -206,7 +466,33 @@
               "context": "延期已经发生，说话者期待了解决策原因，尚未断言延期不合理。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "ask why",
+                  "meaning": "询问原因",
+                  "pattern": "ask why something happened"
+                },
+                {
+                  "word": "seek",
+                  "meaning": "寻求解释",
+                  "pattern": "seek an explanation for something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Why was the meeting cancelled?",
+                  "zh": "会议为什么取消了？"
+                },
+                {
+                  "en": "What led you to that conclusion?",
+                  "zh": "你是根据什么得出这个结论的？"
+                }
+              ],
+              "note": "同样的 why 问句也可能用于责难，须看是否期待解释。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ask-evidence",
@@ -223,7 +509,33 @@
               "context": "对方刚引用一个比例，说话者要求其给出可追查的统计出处，而非询问比例的成因。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "request",
+                  "meaning": "索取依据",
+                  "pattern": "request evidence for a claim"
+                },
+                {
+                  "word": "ask for",
+                  "meaning": "要求提供",
+                  "pattern": "ask for a source"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "What evidence supports that claim?",
+                  "zh": "有什么证据支持这个主张？"
+                },
+                {
+                  "en": "Could you share the source for that figure?",
+                  "zh": "你能提供这个数字的来源吗？"
+                }
+              ],
+              "note": "索取来源本身不一定表示反对或质疑。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ask-clarification",
@@ -241,7 +553,33 @@
               "context": "对方用了“负责人”一词，但现场有项目经理和审批人，说话者要求明确指称。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "clarify",
+                  "meaning": "澄清",
+                  "pattern": "ask someone to clarify a point"
+                },
+                {
+                  "word": "specify",
+                  "meaning": "说明具体所指",
+                  "pattern": "ask someone to specify what they mean"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "What do you mean by “flexible”?",
+                  "zh": "你说的“灵活”是什么意思？"
+                },
+                {
+                  "en": "Could you clarify which version you're referring to?",
+                  "zh": "你能说明一下你指的是哪个版本吗？"
+                }
+              ],
+              "note": "请求澄清针对含义不明，不只是没听清声音。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "check-understanding",
@@ -258,7 +596,33 @@
               "context": "说话者已听完安排，复述自己理解的“暂停而非取消”，请原说话者核对。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "check",
+                  "meaning": "核对理解",
+                  "pattern": "check that you have understood"
+                },
+                {
+                  "word": "confirm",
+                  "meaning": "确认所理解的意思",
+                  "pattern": "confirm your understanding with someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "So you mean we should wait until Friday. Is that right?",
+                  "zh": "所以你的意思是等到周五，对吗？"
+                },
+                {
+                  "en": "Have I understood correctly that only members can apply?",
+                  "zh": "我理解的是只有会员能申请，对吗？"
+                }
+              ],
+              "note": "核对理解与对方意图的对应，不重新证明外部事实。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -284,7 +648,33 @@
               "context": "讨论者尚未形成共识，说话者主动亮明自己支持保留规则的立场，供他人回应。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "assert",
+                  "meaning": "明确提出主张",
+                  "pattern": "assert that …"
+                },
+                {
+                  "word": "maintain",
+                  "meaning": "坚持某种主张",
+                  "pattern": "maintain that …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "My position is that we should keep the service free.",
+                  "zh": "我的立场是这项服务应该保持免费。"
+                },
+                {
+                  "en": "I believe this decision needs to be reconsidered.",
+                  "zh": "我认为这个决定需要重新考虑。"
+                }
+              ],
+              "note": "maintain 常含持续坚持；亮明立场不等于已经给出理由。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "agree-belief",
@@ -301,7 +691,33 @@
               "context": "对方刚分析失败原因，说话者接受这一判断，但没有因此答应任何整改任务。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "agree",
+                  "meaning": "赞同观点",
+                  "pattern": "agree with someone / agree that …"
+                },
+                {
+                  "word": "concur",
+                  "meaning": "表示赞同，较正式",
+                  "pattern": "concur with an assessment"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I agree with your assessment.",
+                  "zh": "我赞同你的判断。"
+                },
+                {
+                  "en": "You're right that the current process is too slow.",
+                  "zh": "你说得对，目前这个流程太慢了。"
+                }
+              ],
+              "note": "agree with a view 表示观点赞同；agree to do something 可承担行动。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "disagree",
@@ -318,7 +734,33 @@
               "context": "对方把全部延误归因于人手，说话者明确不接受该判断，尚未展开反驳理由。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "disagree",
+                  "meaning": "不赞同",
+                  "pattern": "disagree with a claim"
+                },
+                {
+                  "word": "object",
+                  "meaning": "提出异议",
+                  "pattern": "object to a conclusion"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I don't agree with that conclusion.",
+                  "zh": "我不赞同那个结论。"
+                },
+                {
+                  "en": "I see it differently: the evidence is still incomplete.",
+                  "zh": "我的看法不同：证据仍不完整。"
+                }
+              ],
+              "note": "object 也可反对安排；本条例句反对的是判断。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "argue",
@@ -338,7 +780,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S06"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "argue",
+                  "meaning": "提出支持理由",
+                  "pattern": "argue that … / argue for something"
+                },
+                {
+                  "word": "justify",
+                  "meaning": "为主张提供理由",
+                  "pattern": "justify a conclusion"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "We should extend the trial because the sample is still too small.",
+                  "zh": "我们应该延长试验，因为样本仍然太小。"
+                },
+                {
+                  "en": "The lower running costs are a reason to choose this option.",
+                  "zh": "较低的运行成本是选择这个方案的一个理由。"
+                }
+              ],
+              "note": "argue 在这里指论证，不限于吵架；提出理由不保证理由有效。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "refute",
@@ -355,7 +823,33 @@
               "context": "对方已断言“所有样本合格”，说话者用编号七的反例攻击该全称判断。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "refute",
+                  "meaning": "反驳，常含驳倒之意",
+                  "pattern": "refute a claim"
+                },
+                {
+                  "word": "rebut",
+                  "meaning": "针对性反驳",
+                  "pattern": "rebut an argument"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "That conclusion doesn't follow: the survey only covered existing customers.",
+                  "zh": "那个结论推不出来：调查只涵盖了现有客户。"
+                },
+                {
+                  "en": "You say nobody replied, but here are three replies from yesterday.",
+                  "zh": "你说没有人回复，但这里有昨天的三条回复。"
+                }
+              ],
+              "note": "refute 在严格用法中常暗示反驳成立；描述尝试可用 try to refute。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "challenge",
@@ -372,7 +866,33 @@
               "context": "对方只测试了一次便下稳定结论，说话者要求这一推断接受进一步审查。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "challenge",
+                  "meaning": "质疑可接受性",
+                  "pattern": "challenge an assumption"
+                },
+                {
+                  "word": "question",
+                  "meaning": "对某点提出疑问",
+                  "pattern": "question the basis of a claim"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "What makes that assumption reasonable?",
+                  "zh": "有什么理由认为那个假设合理？"
+                },
+                {
+                  "en": "I'm not convinced that the evidence supports this conclusion.",
+                  "zh": "我还不信服这些证据足以支持这个结论。"
+                }
+              ],
+              "note": "质疑可只要求补足论证，不必断言结论为假。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "withhold-judgment",
@@ -389,7 +909,33 @@
               "context": "两方各执一词且证据不足，说话者明确暂不站在任一事实判断一边。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "reserve",
+                  "meaning": "保留判断",
+                  "pattern": "reserve judgment on something"
+                },
+                {
+                  "word": "suspend",
+                  "meaning": "暂不作判断",
+                  "pattern": "suspend judgment until …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'll reserve judgment until we have more evidence.",
+                  "zh": "我会等有更多证据后再作判断。"
+                },
+                {
+                  "en": "I'm not ready to say whether the claim is true.",
+                  "zh": "我现在还不能判断这个说法是否属实。"
+                }
+              ],
+              "note": "对象是命题真假或可接受性，不是行动决定。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "retract-claim",
@@ -406,7 +952,33 @@
               "context": "说话者此前断言某人缺席，现在不再愿意维持该断言；尚未提出替代版本。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "retract",
+                  "meaning": "撤回主张",
+                  "pattern": "retract a claim"
+                },
+                {
+                  "word": "take back",
+                  "meaning": "收回先前说法",
+                  "pattern": "take back what you said"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I take back what I said about the figures.",
+                  "zh": "我收回之前对那些数字的说法。"
+                },
+                {
+                  "en": "I withdraw my earlier claim that the report was incomplete.",
+                  "zh": "我撤回之前关于报告不完整的主张。"
+                }
+              ],
+              "note": "撤回主张不等于撤销行动承诺。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -453,7 +1025,33 @@
                 "condition": "突出困厄、无助或请求怜悯，常与恳求重合；不要求哭泣，也不能仅由音量或词形认定。",
                 "status": "工作辨析，非互斥词义定理"
               }
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "request",
+                  "meaning": "请求，较正式",
+                  "pattern": "request that … / request something"
+                },
+                {
+                  "word": "ask",
+                  "meaning": "请求对方行动",
+                  "pattern": "ask someone to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Could you send me the revised file?",
+                  "zh": "你能把修改后的文件发给我吗？"
+                },
+                {
+                  "en": "Would you mind closing the window?",
+                  "zh": "你介意关一下窗户吗？"
+                }
+              ],
+              "note": "动作词是 request、ask；could、would 是句式成分，不单列为动作词。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "command",
@@ -471,7 +1069,33 @@
               "context": "现场指挥者援引值班规则要求撤离，将执行呈现为职责而非可自由接受的帮忙。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "order",
+                  "meaning": "命令",
+                  "pattern": "order someone to do something"
+                },
+                {
+                  "word": "instruct",
+                  "meaning": "指示执行",
+                  "pattern": "instruct someone to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "As shift supervisor, I am directing everyone to leave the area now.",
+                  "zh": "作为当班主管，我现在要求所有人撤离该区域。"
+                },
+                {
+                  "en": "This is an order: stop the operation immediately.",
+                  "zh": "这是命令：立即停止操作。"
+                }
+              ],
+              "note": "是否构成命令取决于指挥资格的呈现，不由语气强弱决定。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "advise",
@@ -489,7 +1113,33 @@
               "context": "对方将要升级系统，说话者推荐备份这一更稳妥的选项，不替其作决定。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "advise",
+                  "meaning": "提出建议",
+                  "pattern": "advise someone to do something"
+                },
+                {
+                  "word": "recommend",
+                  "meaning": "推荐行动",
+                  "pattern": "recommend doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'd recommend taking the earlier train.",
+                  "zh": "我建议坐更早的那班火车。"
+                },
+                {
+                  "en": "You might want to save a backup before updating.",
+                  "zh": "你最好在更新前保存一份备份。"
+                }
+              ],
+              "note": "recommend doing 常见；建议不自动建立执行义务。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "persuade",
@@ -509,7 +1159,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S06"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "persuade",
+                  "meaning": "劝说，常含说服成功",
+                  "pattern": "persuade someone to do something"
+                },
+                {
+                  "word": "urge",
+                  "meaning": "敦促改变选择",
+                  "pattern": "urge someone to reconsider"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I know you want to quit, but could you give it one more week?",
+                  "zh": "我知道你想退出，但能不能再试一周？"
+                },
+                {
+                  "en": "Please reconsider; staying would let you finish what you started.",
+                  "zh": "请再考虑一下，留下来就能完成你已经开始的事。"
+                }
+              ],
+              "note": "本条容纳劝说尝试；叙述未成功的劝说宜用 try to persuade。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "warn",
@@ -526,7 +1202,33 @@
               "context": "前方有施工坑，说话者提醒接近者防避危险；坑并非说话者为迫使其服从而设置。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "warn",
+                  "meaning": "警告风险",
+                  "pattern": "warn someone about something / warn someone not to …"
+                },
+                {
+                  "word": "caution",
+                  "meaning": "提醒谨慎",
+                  "pattern": "caution someone against doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Be careful: the steps are slippery.",
+                  "zh": "小心，台阶很滑。"
+                },
+                {
+                  "en": "If you leave now, you may get caught in the storm.",
+                  "zh": "你现在出发，可能会遇上暴风雨。"
+                }
+              ],
+              "note": "风险说明不必由说话者施加后果，因此不自动是威胁。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "threaten",
@@ -544,7 +1246,33 @@
               "context": "说话者以自己声称能扣工资为筹码，要求对方停止举报；实际有无此权力不由此句证明。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "threaten",
+                  "meaning": "以不利后果相威胁",
+                  "pattern": "threaten to do something"
+                },
+                {
+                  "word": "intimidate",
+                  "meaning": "以威吓施压",
+                  "pattern": "intimidate someone into doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "If you report this, I'll make sure you lose your job.",
+                  "zh": "你要是举报这件事，我就让你丢掉工作。"
+                },
+                {
+                  "en": "Do as I say, or I'll destroy your files.",
+                  "zh": "照我说的做，否则我就毁掉你的文件。"
+                }
+              ],
+              "note": "构造的识别例；threaten 可指威胁尝试，intimidate 常带造成畏惧之意。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "invite",
@@ -561,7 +1289,33 @@
               "context": "主人给朋友参加周末聚餐的机会，朋友可以接受或谢绝；不是履行工作职责。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "invite",
+                  "meaning": "邀请参与",
+                  "pattern": "invite someone to something / to do something"
+                },
+                {
+                  "word": "ask along",
+                  "meaning": "邀人同行",
+                  "pattern": "ask someone along"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Would you like to join us for dinner?",
+                  "zh": "你愿意和我们一起吃晚饭吗？"
+                },
+                {
+                  "en": "You're invited to our open day on Saturday.",
+                  "zh": "欢迎你来参加我们周六的开放日。"
+                }
+              ],
+              "note": "邀请提供参与机会，不等于要求履行既定义务。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "clemency",
@@ -601,7 +1355,33 @@
                 "condition": "面对惩罚或伤害请求停止、免除或宽免；可代表己方求饶，不能仅按受益人数分。",
                 "status": "工作辨析，非互斥词义定理"
               }
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "plead",
+                  "meaning": "恳求宽待",
+                  "pattern": "plead with someone for mercy"
+                },
+                {
+                  "word": "spare",
+                  "meaning": "饶过，常用于请求句",
+                  "pattern": "ask someone to spare someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Please give her another chance instead of suspending her.",
+                  "zh": "请再给她一次机会，别让她停课。"
+                },
+                {
+                  "en": "I know the rule was broken, but please show him some leniency.",
+                  "zh": "我知道违反了规定，但请对他从轻处理。"
+                }
+              ],
+              "note": "plead for mercy / leniency；spare 是所请求的动作，不是请求者已经宽宥。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "urge",
@@ -619,7 +1399,33 @@
               "context": "对方已经答应交报告而迟迟未交，说话者要求落实这项已有待办，并加上时间要求。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "urge",
+                  "meaning": "催促落实",
+                  "pattern": "urge someone to do something"
+                },
+                {
+                  "word": "prompt",
+                  "meaning": "促使跟进",
+                  "pattern": "prompt someone to act"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You said you'd send it today; please send it before five.",
+                  "zh": "你说过今天会发，请在五点前发出来。"
+                },
+                {
+                  "en": "We're still waiting for the signed form. Could you return it today?",
+                  "zh": "我们还在等签好的表格，你今天能交回来吗？"
+                }
+              ],
+              "note": "此处须有既定待办或履行预期；urge 单独也可指一般劝说。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ask-permission",
@@ -637,7 +1443,33 @@
               "context": "说话者希望改变会议形式，但决定权在对方；请求的是准许，而非请对方主持线上会议。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "ask",
+                  "meaning": "请求准许",
+                  "pattern": "ask permission to do something"
+                },
+                {
+                  "word": "seek",
+                  "meaning": "寻求许可，较正式",
+                  "pattern": "seek permission for something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "May I record this meeting?",
+                  "zh": "我可以录下这次会议吗？"
+                },
+                {
+                  "en": "Would it be all right if I left a little early?",
+                  "zh": "我稍微早走一会儿可以吗？"
+                }
+              ],
+              "note": "may、could 组成请求句式；动作词聚焦 ask、seek。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -662,7 +1494,33 @@
               "context": "听者正在等待交付，说话者把周五交付作为自己可被追责的承担，不只是估计进度。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "promise",
+                  "meaning": "承担未来行动",
+                  "pattern": "promise to do something"
+                },
+                {
+                  "word": "undertake",
+                  "meaning": "承诺承担，较正式",
+                  "pattern": "undertake to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I promise I'll send you the final version by Friday.",
+                  "zh": "我保证周五前把最终版发给你。"
+                },
+                {
+                  "en": "You have my word: I'll cover the cost.",
+                  "zh": "我向你保证，这笔费用由我承担。"
+                }
+              ],
+              "note": "未来时不自动是承诺；这里明确承担可被追责的行动。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "accept-request",
@@ -680,7 +1538,33 @@
               "context": "对方刚请说话者整理记录，说话者接下任务；前项诉求已明确。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "agree",
+                  "meaning": "答应行动",
+                  "pattern": "agree to do something"
+                },
+                {
+                  "word": "consent",
+                  "meaning": "同意所求行动，较正式",
+                  "pattern": "consent to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Yes, I'll send it this afternoon, as you asked.",
+                  "zh": "好的，按你的要求，我今天下午发。"
+                },
+                {
+                  "en": "Of course. I'll pick you up at six.",
+                  "zh": "当然可以，我六点来接你。"
+                }
+              ],
+              "note": "需接续已有请求；收到或听懂并不等于答应。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "offer",
@@ -698,7 +1582,33 @@
               "context": "朋友尚未请求接送，说话者主动把送其回家的服务交给朋友选择是否接受。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "offer",
+                  "meaning": "主动提供",
+                  "pattern": "offer to do something / offer someone something"
+                },
+                {
+                  "word": "volunteer",
+                  "meaning": "主动承担",
+                  "pattern": "volunteer to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I can carry that for you if you'd like.",
+                  "zh": "你愿意的话，我可以帮你拿。"
+                },
+                {
+                  "en": "Would you like me to review the draft?",
+                  "zh": "要我帮你看一下草稿吗？"
+                }
+              ],
+              "note": "提供自己的行动或资源；共同改日程通常归入提议。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "refuse",
@@ -716,7 +1626,33 @@
               "context": "说话者收到活动邀请，现在表明不参加；不是否认活动会举办。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "refuse",
+                  "meaning": "拒绝行动",
+                  "pattern": "refuse to do something"
+                },
+                {
+                  "word": "decline",
+                  "meaning": "婉拒",
+                  "pattern": "decline an invitation / decline to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Thanks for asking, but I can't take on the extra shift.",
+                  "zh": "谢谢你来问，不过我不能接这个额外班次。"
+                },
+                {
+                  "en": "I'm sorry, but I won't share someone else's password.",
+                  "zh": "抱歉，我不会分享别人的密码。"
+                }
+              ],
+              "note": "须在语境中表明不承接诉求，不能只看 can't。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "withdraw-commitment",
@@ -734,7 +1670,33 @@
               "context": "说话者先前已答应担任志愿者，现在通知对方收回该承担；是否获准退出另议。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "withdraw",
+                  "meaning": "收回承担",
+                  "pattern": "withdraw a commitment"
+                },
+                {
+                  "word": "back out",
+                  "meaning": "退出已答应的安排",
+                  "pattern": "back out of an agreement"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I know I promised to help, but I need to withdraw that commitment.",
+                  "zh": "我知道我答应过帮忙，但我需要收回这个承诺。"
+                },
+                {
+                  "en": "I'm sorry, I can no longer cover your shift as agreed.",
+                  "zh": "抱歉，我不能再按约定替你值班了。"
+                }
+              ],
+              "note": "back out 较口语，可能含不守约评价；效力另看具体安排。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "state-intention",
@@ -751,7 +1713,33 @@
               "context": "朋友闲聊下一年的个人计划，说话者介绍学习意向，没有向朋友承担完成义务。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "intend",
+                  "meaning": "表明意图",
+                  "pattern": "intend to do something"
+                },
+                {
+                  "word": "plan",
+                  "meaning": "计划",
+                  "pattern": "plan to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'm planning to move next spring.",
+                  "zh": "我计划明年春天搬家。"
+                },
+                {
+                  "en": "At the moment, I intend to apply for the course.",
+                  "zh": "目前我打算申请这门课程。"
+                }
+              ],
+              "note": "表达计划而非向听者保证履行。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -778,7 +1766,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S03"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "propose",
+                  "meaning": "提出共同方案",
+                  "pattern": "propose doing something"
+                },
+                {
+                  "word": "suggest",
+                  "meaning": "提出可考虑的安排",
+                  "pattern": "suggest that …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "How about meeting online instead?",
+                  "zh": "改成线上见面怎么样？"
+                },
+                {
+                  "en": "I suggest we start with a one-week trial.",
+                  "zh": "我提议我们先试行一周。"
+                }
+              ],
+              "note": "提交选项供共同讨论，不宣称已达成一致。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "counterpropose",
@@ -795,7 +1809,33 @@
               "context": "对方刚提议周五见面，说话者提出周六下午作为替代条件，协商尚未完成。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "counterpropose",
+                  "meaning": "提出反提案，偏正式",
+                  "pattern": "counterpropose a different arrangement"
+                },
+                {
+                  "word": "counteroffer",
+                  "meaning": "提出替代条件",
+                  "pattern": "counteroffer a different price"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Instead of Monday, could we meet on Wednesday?",
+                  "zh": "不放在周一，改周三见面行吗？"
+                },
+                {
+                  "en": "You offered fifty; how about sixty?",
+                  "zh": "你出价五十，六十怎么样？"
+                }
+              ],
+              "note": "counterpropose、counteroffer 偏协商用语；日常常直接用 instead / how about。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "concede",
@@ -812,7 +1852,33 @@
               "context": "说话者原先坚持给自己五天，协商后愿意把要求降到三天；不是发现自己记错了。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "concede",
+                  "meaning": "让出争取中的条件",
+                  "pattern": "concede a point in negotiations"
+                },
+                {
+                  "word": "compromise",
+                  "meaning": "折中让步",
+                  "pattern": "compromise on a price"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "All right, I can come down to sixty.",
+                  "zh": "好吧，我可以降到六十。"
+                },
+                {
+                  "en": "I'll drop the delivery charge if we keep the original deadline.",
+                  "zh": "如果保留原来的截止日期，我可以免去配送费。"
+                }
+              ],
+              "note": "此处让出协商利益；仅承认论点的一部分另看 O 让步转折。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "accept-proposal",
@@ -829,7 +1895,33 @@
               "context": "对方已提出两阶段方案，说话者同意把它作为安排；能代表哪些人需看其角色。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "accept",
+                  "meaning": "接受方案",
+                  "pattern": "accept a proposal"
+                },
+                {
+                  "word": "agree",
+                  "meaning": "同意安排",
+                  "pattern": "agree to a plan"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "That arrangement works for me. Let's go with it.",
+                  "zh": "这个安排我可以，我们就按这个来。"
+                },
+                {
+                  "en": "Agreed. We'll meet on Wednesday at ten.",
+                  "zh": "同意，我们周三十点见。"
+                }
+              ],
+              "note": "须回应已提出的方案，不由说话者代替所有人同意。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "reject-proposal",
@@ -846,7 +1938,33 @@
               "context": "候选排班已经提出，说话者表示无法接受这一整体安排，尚未提供替代方案。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "reject",
+                  "meaning": "否决候选方案",
+                  "pattern": "reject a proposal"
+                },
+                {
+                  "word": "rule out",
+                  "meaning": "排除选项",
+                  "pattern": "rule out an option"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I can't accept that arrangement.",
+                  "zh": "我不能接受这个安排。"
+                },
+                {
+                  "en": "Let's rule out the overnight option; it doesn't work for us.",
+                  "zh": "把过夜的方案排除吧，它不适合我们。"
+                }
+              ],
+              "note": "这里是否决共同安排；正式有权裁决可另标裁定。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "defer-decision",
@@ -863,7 +1981,33 @@
               "context": "报价尚未齐备，说话者提议暂不选供应商；讨论本身可以继续。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "defer",
+                  "meaning": "暂缓决定",
+                  "pattern": "defer a decision until …"
+                },
+                {
+                  "word": "postpone",
+                  "meaning": "推迟作决定",
+                  "pattern": "postpone deciding on something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Let's hold off on deciding until we see the estimate.",
+                  "zh": "等看到报价后再决定吧。"
+                },
+                {
+                  "en": "I'd like to keep both options open for now.",
+                  "zh": "我想暂时保留这两个选项。"
+                }
+              ],
+              "note": "延后决定不等于拒绝，也不必暂停对话。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "ratify-agreement",
@@ -880,7 +2024,33 @@
               "context": "双方已分别表示接受分工，现在把共同安排再明确一次；不是未经询问就替双方宣布同意。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "confirm",
+                  "meaning": "确认已有共识",
+                  "pattern": "confirm an agreement"
+                },
+                {
+                  "word": "ratify",
+                  "meaning": "正式批准协议",
+                  "pattern": "ratify an agreement"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "So, as we've agreed, we'll split the cost equally.",
+                  "zh": "那么，按我们已经达成的一致，费用平摊。"
+                },
+                {
+                  "en": "That settles it: we're meeting on Friday, as agreed.",
+                  "zh": "那就定了，按说好的周五见。"
+                }
+              ],
+              "note": "ratify 比一般口头确认正式得多；普通对话优先 confirm。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -907,7 +2077,33 @@
               "context": "说话者读完报告，肯定其论证质量；没有涉及报告为自己提供了帮助。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "praise",
+                  "meaning": "赞扬表现",
+                  "pattern": "praise someone for something"
+                },
+                {
+                  "word": "compliment",
+                  "meaning": "称赞",
+                  "pattern": "compliment someone on something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You handled that difficult conversation really well.",
+                  "zh": "那场难谈的对话，你处理得很好。"
+                },
+                {
+                  "en": "That was a clear and thoughtful explanation.",
+                  "zh": "那个解释很清楚，也考虑得很周到。"
+                }
+              ],
+              "note": "赞扬表现；不自动表示感谢或祝贺。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "criticism",
@@ -936,7 +2132,33 @@
                 "condition": "明确而强烈的规范否定，可针对行为或制度；是否同时归责要另看，不能一律等于强烈指责。",
                 "status": "工作辨析，非互斥词义定理"
               }
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "criticize",
+                  "meaning": "指出缺点",
+                  "pattern": "criticize something for something"
+                },
+                {
+                  "word": "critique",
+                  "meaning": "分析评议",
+                  "pattern": "critique a proposal"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "This proposal doesn't explain how the costs will be covered.",
+                  "zh": "这个方案没有说明费用如何承担。"
+                },
+                {
+                  "en": "The argument overlooks an important exception.",
+                  "zh": "这个论证忽略了一个重要例外。"
+                }
+              ],
+              "note": "批评可针对作品或方案，不必指认过错责任人。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "blame",
@@ -976,7 +2198,33 @@
                 "condition": "明确而强烈的规范否定，可针对行为或制度；是否同时归责要另看，不能一律等于强烈指责。",
                 "status": "工作辨析，非互斥词义定理"
               }
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "blame",
+                  "meaning": "归责",
+                  "pattern": "blame someone for something"
+                },
+                {
+                  "word": "reproach",
+                  "meaning": "责备，较正式",
+                  "pattern": "reproach someone for doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You were responsible for checking this, and you didn't.",
+                  "zh": "这件事本来由你负责检查，但你没有做。"
+                },
+                {
+                  "en": "I blame the management for ignoring the warnings.",
+                  "zh": "我指责管理层无视了那些警告。"
+                }
+              ],
+              "note": "blame someone for something；将缺陷归给责任主体才是本条。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "accusation",
@@ -1004,7 +2252,33 @@
                 "condition": "常突出受害、不公与向他人寻求见证或处理；无需已进入法律程序。",
                 "status": "工作辨析，非互斥词义定理"
               }
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "accuse",
+                  "meaning": "指控具体行为",
+                  "pattern": "accuse someone of doing something"
+                },
+                {
+                  "word": "allege",
+                  "meaning": "提出尚待证明的指控",
+                  "pattern": "allege that …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'm accusing you of changing the figures without permission.",
+                  "zh": "我指控你擅自改动了那些数字。"
+                },
+                {
+                  "en": "The complaint alleges that the company withheld wages.",
+                  "zh": "投诉称公司扣发了工资。"
+                }
+              ],
+              "note": "构造例不指向真实对象；allege 不宣称指控已获证实。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "credit",
@@ -1022,7 +2296,33 @@
               "context": "团队成果已出现，说话者将主要贡献归给协调者，而不只是泛泛赞其能力。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "credit",
+                  "meaning": "把成果归于某人",
+                  "pattern": "credit someone with something"
+                },
+                {
+                  "word": "attribute",
+                  "meaning": "归因或归功",
+                  "pattern": "attribute a success to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The credit for this improvement goes to the support team.",
+                  "zh": "这项改进的功劳属于客服团队。"
+                },
+                {
+                  "en": "We owe the success of the event to our volunteers.",
+                  "zh": "这次活动的成功要归功于志愿者。"
+                }
+              ],
+              "note": "attribute 本身也可中性归因；此处须表达正面贡献归属。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "complain",
@@ -1040,7 +2340,33 @@
               "context": "使用者向同事诉说重复填表带来的负担，没有指定责任人，也尚未提出正式处理请求。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "complain",
+                  "meaning": "呈现不满",
+                  "pattern": "complain about something"
+                },
+                {
+                  "word": "grumble",
+                  "meaning": "嘟囔抱怨，口语",
+                  "pattern": "grumble about something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I've been waiting for an hour, and nobody has updated me.",
+                  "zh": "我等了一小时了，却没人给我任何消息。"
+                },
+                {
+                  "en": "It's frustrating to pay for a service that keeps failing.",
+                  "zh": "花了钱服务却老是出故障，真让人心烦。"
+                }
+              ],
+              "note": "抱怨可不指向责任主体，也不必向有权处理者提出。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -1067,7 +2393,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S05"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "admit",
+                  "meaning": "承认过错",
+                  "pattern": "admit making a mistake"
+                },
+                {
+                  "word": "own up",
+                  "meaning": "坦承责任，口语",
+                  "pattern": "own up to doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I made a mistake, and it was my responsibility to check.",
+                  "zh": "我犯了错，检查本来是我的责任。"
+                },
+                {
+                  "en": "You're right. I shouldn't have shared that information.",
+                  "zh": "你说得对，我不该分享那条信息。"
+                }
+              ],
+              "note": "承认责任不自动表达歉意或请求原谅。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "apologize",
@@ -1087,7 +2439,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S01"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "apologize",
+                  "meaning": "向受影响者道歉",
+                  "pattern": "apologize to someone for something"
+                },
+                {
+                  "word": "say sorry",
+                  "meaning": "表达歉意",
+                  "pattern": "say sorry for doing something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'm sorry I interrupted you.",
+                  "zh": "对不起，我打断了你。"
+                },
+                {
+                  "en": "I apologize for the inconvenience we caused you.",
+                  "zh": "对于我们给你带来的不便，我表示歉意。"
+                }
+              ],
+              "note": "apologize for 事情、to 人；道歉不以获得原谅为前提。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "express-remorse",
@@ -1105,7 +2483,33 @@
               "context": "说话者回想自己对他人的刻薄并感到悔恨；听者不是受害者，也未被要求宽恕。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "regret",
+                  "meaning": "对过错感到后悔",
+                  "pattern": "regret doing something"
+                },
+                {
+                  "word": "repent",
+                  "meaning": "悔过，常有道德或宗教色彩",
+                  "pattern": "repent of a wrong"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I deeply regret the way I treated her.",
+                  "zh": "我深深后悔当时那样对她。"
+                },
+                {
+                  "en": "What I did was wrong, and I wish I could undo it.",
+                  "zh": "我做错了，真希望能挽回。"
+                }
+              ],
+              "note": "regret 也可用于一般遗憾；此处对象须是自己的过错。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "defend",
@@ -1122,7 +2526,33 @@
               "context": "有人指控第三人擅离岗位，说话者提出其奉命送材料的情境，抵御这项指控。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "defend",
+                  "meaning": "为人或行为辩护",
+                  "pattern": "defend someone against an accusation"
+                },
+                {
+                  "word": "justify",
+                  "meaning": "说明行为的正当理由",
+                  "pattern": "justify an action"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "That accusation leaves out the fact that she had no access to the file.",
+                  "zh": "那个指控忽略了她根本无法访问该文件这一点。"
+                },
+                {
+                  "en": "I was following the procedure that was in force at the time.",
+                  "zh": "我当时遵循的是彼时有效的程序。"
+                }
+              ],
+              "note": "defend 不意味着辩护成立；justify 也可指给理由的尝试。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "appeal",
@@ -1140,7 +2570,33 @@
               "context": "作业已被扣分，说话者认为记录归属错误，向能复核者要求重审，而非请求破例减分。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "appeal",
+                  "meaning": "请求复核处置",
+                  "pattern": "appeal against a decision / appeal a decision"
+                },
+                {
+                  "word": "contest",
+                  "meaning": "对决定提出争议",
+                  "pattern": "contest a ruling"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'd like to appeal this decision because the record is incorrect.",
+                  "zh": "我想就这个决定提出申诉，因为记录有误。"
+                },
+                {
+                  "en": "Please review the suspension; the stated procedure wasn't followed.",
+                  "zh": "请复核这项停职处置，规定的程序并未得到遵守。"
+                }
+              ],
+              "note": "appeal against 常见于英式，appeal a decision 常见于美式；这里请求重审而非单求从轻。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "forgive",
@@ -1157,7 +2613,33 @@
               "context": "受冒犯者回应先前的损害，表示个人不再追究；不代表其他受害者或机构撤罚。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "forgive",
+                  "meaning": "宽恕过错",
+                  "pattern": "forgive someone for doing something"
+                },
+                {
+                  "word": "pardon",
+                  "meaning": "原谅，亦可指正式赦免",
+                  "pattern": "pardon someone for something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I forgive you for what happened.",
+                  "zh": "那件事我原谅你了。"
+                },
+                {
+                  "en": "I'm not going to hold that mistake against you anymore.",
+                  "zh": "我不会再揪着那个错误责怪你。"
+                }
+              ],
+              "note": "私人 forgive 不自动取消制度处罚；pardon 的正式用法须辨别。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -1182,7 +2664,33 @@
               "context": "对方陪说话者等候到很晚，说话者把这份付出作为受惠事项表达感激。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "thank",
+                  "meaning": "感谢",
+                  "pattern": "thank someone for something"
+                },
+                {
+                  "word": "appreciate",
+                  "meaning": "表达感激",
+                  "pattern": "appreciate someone's help"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Thank you for staying late to help.",
+                  "zh": "谢谢你留下来加班帮忙。"
+                },
+                {
+                  "en": "I really appreciate you taking the time to explain.",
+                  "zh": "很感谢你抽时间解释。"
+                }
+              ],
+              "note": "appreciate 通常接帮助或行为；thank 通常接人。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "congratulate",
@@ -1199,7 +2707,33 @@
               "context": "朋友已通过答辩，说话者回应这一已发生的喜事，不是预祝未来通过。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "congratulate",
+                  "meaning": "祝贺成就或喜事",
+                  "pattern": "congratulate someone on something"
+                },
+                {
+                  "word": "celebrate",
+                  "meaning": "庆祝，表达共享喜悦",
+                  "pattern": "celebrate someone's success"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Congratulations on your promotion!",
+                  "zh": "恭喜你升职！"
+                },
+                {
+                  "en": "I'm so happy for you. You got the place!",
+                  "zh": "真为你高兴，你被录取了！"
+                }
+              ],
+              "note": "针对已发生的喜事；未来的好结果用祝愿。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "condole",
@@ -1217,7 +2751,33 @@
               "context": "说话者得知对方父亲去世，对其丧亲表示哀悼与同情，不把让其立刻振作当任务。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "offer condolences",
+                  "meaning": "表达哀悼",
+                  "pattern": "offer condolences to someone"
+                },
+                {
+                  "word": "express sympathy",
+                  "meaning": "表达同情慰问",
+                  "pattern": "express sympathy for someone's loss"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'm so sorry for your loss.",
+                  "zh": "对你的失去，我深感难过。"
+                },
+                {
+                  "en": "Please accept my heartfelt condolences.",
+                  "zh": "请接受我真挚的哀悼。"
+                }
+              ],
+              "note": "condole 是动词但现代日常较少用，优先收录 offer condolences 等动作短语。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "comfort",
@@ -1235,7 +2795,33 @@
               "context": "朋友因失败而痛苦，说话者承接其感受并提供陪伴；此句不要求朋友继续原任务。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "comfort",
+                  "meaning": "安慰",
+                  "pattern": "comfort someone"
+                },
+                {
+                  "word": "console",
+                  "meaning": "安慰丧失或失落",
+                  "pattern": "console someone after a loss"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You don't have to go through this alone. I'm here with you.",
+                  "zh": "你不必独自承受，我在这里陪你。"
+                },
+                {
+                  "en": "It's okay to feel upset after what happened.",
+                  "zh": "经历了这些，感到难过是可以理解的。"
+                }
+              ],
+              "note": "安慰承接痛苦；不保证对方情绪实际改善。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "encourage",
@@ -1253,7 +2839,33 @@
               "context": "对方已经完成第一步但对继续缺乏信心，说话者支持其尝试下去。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "encourage",
+                  "meaning": "鼓励行动",
+                  "pattern": "encourage someone to do something"
+                },
+                {
+                  "word": "cheer on",
+                  "meaning": "为人加油",
+                  "pattern": "cheer someone on"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You've made progress. Keep going.",
+                  "zh": "你已经有进步了，继续加油。"
+                },
+                {
+                  "en": "I believe you can do this, even if it takes another try.",
+                  "zh": "我相信你能做到，即使还需要再试一次。"
+                }
+              ],
+              "note": "关注信心与行动意愿；不只是降低不安。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "reassure",
@@ -1271,7 +2883,33 @@
               "context": "对方担心自己被排除，说话者提供名单中有其姓名的信息，回应这项具体担忧。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "reassure",
+                  "meaning": "回应担忧使人安心",
+                  "pattern": "reassure someone that …"
+                },
+                {
+                  "word": "put at ease",
+                  "meaning": "缓解紧张",
+                  "pattern": "put someone's mind at ease"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You haven't missed the deadline; it isn't until Friday.",
+                  "zh": "你没错过截止日期，周五才截止。"
+                },
+                {
+                  "en": "There's no need to worry about the booking. It's confirmed.",
+                  "zh": "不用担心预约，已经确认好了。"
+                }
+              ],
+              "note": "针对具体担忧；词语描述安抚方向，不宣称实际消除焦虑。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "express-affection",
@@ -1289,7 +2927,33 @@
               "context": "在私人关系中，说话者让对方知道自己的想念与在乎；没有约定未来关系义务。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "express",
+                  "meaning": "表达亲爱",
+                  "pattern": "express affection for someone"
+                },
+                {
+                  "word": "tell",
+                  "meaning": "向对方表明关爱",
+                  "pattern": "tell someone you care about them"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I love you, and I'm glad you're in my life.",
+                  "zh": "我爱你，很高兴生命中有你。"
+                },
+                {
+                  "en": "You mean a lot to me.",
+                  "zh": "你对我很重要。"
+                }
+              ],
+              "note": "express、tell 需保留 affection / care 等搭配，单独太宽。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "express-feeling",
@@ -1306,7 +2970,33 @@
               "context": "说话者向同伴说明自己正在紧张，给对方理解其状态的线索；后半句另可有请求功能。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "express",
+                  "meaning": "表达感受",
+                  "pattern": "express how you feel"
+                },
+                {
+                  "word": "share",
+                  "meaning": "向人分享感受",
+                  "pattern": "share your feelings with someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I feel nervous about tomorrow.",
+                  "zh": "我对明天感到紧张。"
+                },
+                {
+                  "en": "I'm relieved that we finally talked about it.",
+                  "zh": "终于谈过这件事，我松了一口气。"
+                }
+              ],
+              "note": "feel 是例句中的状态动词；词条动作聚焦 express、share。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "wish-well",
@@ -1323,7 +3013,33 @@
               "context": "朋友即将出行，说话者表达对其平安的祝愿，但不声称能够保证旅途安全。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "wish",
+                  "meaning": "祝愿",
+                  "pattern": "wish someone luck"
+                },
+                {
+                  "word": "hope",
+                  "meaning": "表达对好结果的期待",
+                  "pattern": "hope that …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I wish you all the best in your new role.",
+                  "zh": "祝你在新岗位上一切顺利。"
+                },
+                {
+                  "en": "I hope your interview goes well tomorrow.",
+                  "zh": "希望你明天面试顺利。"
+                }
+              ],
+              "note": "hope 本身是心理态度；向对方说出此期待时可实施祝愿。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "welcome",
@@ -1340,7 +3056,33 @@
               "context": "新成员已获准加入，说话者在首次见面时表达接纳；这句话不是审批加入资格。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "welcome",
+                  "meaning": "欢迎到来",
+                  "pattern": "welcome someone to a place"
+                },
+                {
+                  "word": "greet",
+                  "meaning": "迎接致意",
+                  "pattern": "greet a new arrival"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Welcome to the team! We're glad you're here.",
+                  "zh": "欢迎加入团队，很高兴你来了！"
+                },
+                {
+                  "en": "It's lovely to have you with us.",
+                  "zh": "很高兴有你和我们在一起。"
+                }
+              ],
+              "note": "greet 更宽，不必涉及加入；welcome 在此表达接纳。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "insult",
@@ -1358,7 +3100,33 @@
               "context": "冲突中说话者否定对方发言的尊严地位，而非仅指出一处论证错误。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "insult",
+                  "meaning": "贬损尊严",
+                  "pattern": "insult someone"
+                },
+                {
+                  "word": "belittle",
+                  "meaning": "贬低轻视",
+                  "pattern": "belittle someone's abilities"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You're completely useless.",
+                  "zh": "你真是一无是处。"
+                },
+                {
+                  "en": "Nobody cares what someone like you thinks.",
+                  "zh": "没人在乎你这种人怎么想。"
+                }
+              ],
+              "note": "构造的识别例，不是推荐用语；负面评价不自动构成贬辱。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "set-boundary",
@@ -1375,7 +3143,33 @@
               "context": "对方拿说话者的家庭开玩笑，说话者表明互动底线并请求停止；无需拥有管理职权。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "set a boundary",
+                  "meaning": "声明互动界限",
+                  "pattern": "set a boundary with someone"
+                },
+                {
+                  "word": "insist",
+                  "meaning": "坚持可接受范围",
+                  "pattern": "insist on respectful treatment"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Please don't comment on my body.",
+                  "zh": "请不要评价我的身体。"
+                },
+                {
+                  "en": "I'm willing to discuss the problem, but I won't stay if you shout at me.",
+                  "zh": "我愿意讨论问题，但你若冲我吼，我就会离开。"
+                }
+              ],
+              "note": "边界可伴随停止请求，不依赖制度职位。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -1401,7 +3195,33 @@
               "context": "有审批资格的管理者回应调休申请，以其职责范围准许员工调休。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "allow",
+                  "meaning": "允许行动",
+                  "pattern": "allow someone to do something"
+                },
+                {
+                  "word": "permit",
+                  "meaning": "准许，较正式",
+                  "pattern": "permit someone to do something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You may use this room until six.",
+                  "zh": "你可以使用这个房间到六点。"
+                },
+                {
+                  "en": "I give you permission to leave early today.",
+                  "zh": "我允许你今天早走。"
+                }
+              ],
+              "note": "有资格者准许行动；allow 不必授予代表机构的权限。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "prohibit",
@@ -1418,7 +3238,33 @@
               "context": "考场规则发布者把使用计算器列为不允许的行为；是否有权制定该规定另行核验。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "prohibit",
+                  "meaning": "正式禁止",
+                  "pattern": "prohibit someone from doing something"
+                },
+                {
+                  "word": "ban",
+                  "meaning": "禁令式禁止",
+                  "pattern": "ban an activity"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Recording is not permitted in this room.",
+                  "zh": "本房间禁止录音。"
+                },
+                {
+                  "en": "As venue manager, I prohibit the use of open flames here.",
+                  "zh": "作为场地管理人，我禁止在这里使用明火。"
+                }
+              ],
+              "note": "须有相关规则或资格语境；个人不赞成不自动建立禁令。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "authorize",
@@ -1435,7 +3281,33 @@
               "context": "项目负责人把代表项目组签收设备的权限交给成员，不只是允许成员个人领取物品。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "authorize",
+                  "meaning": "授权代表行动",
+                  "pattern": "authorize someone to act on your behalf"
+                },
+                {
+                  "word": "empower",
+                  "meaning": "赋予权限",
+                  "pattern": "empower someone to make decisions"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I authorize Maya to sign this agreement on my behalf.",
+                  "zh": "我授权玛雅代表我签署这份协议。"
+                },
+                {
+                  "en": "You are authorized to approve refunds up to one hundred dollars.",
+                  "zh": "你获授权可批准不超过一百美元的退款。"
+                }
+              ],
+              "note": "英语 authorize 也可泛指正式准许；本目录用例保留代表或决策权限。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "appoint",
@@ -1452,7 +3324,33 @@
               "context": "有任命资格者按本届程序授予小王召集人角色；不是推荐他参加竞选。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "appoint",
+                  "meaning": "任命职务",
+                  "pattern": "appoint someone as chair / appoint someone to a role"
+                },
+                {
+                  "word": "name",
+                  "meaning": "指定任职者",
+                  "pattern": "name someone as director"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I hereby appoint you chair of the committee.",
+                  "zh": "我现任命你为委员会主席。"
+                },
+                {
+                  "en": "By the authority vested in this board, we appoint Maya as director.",
+                  "zh": "依据本董事会的权限，我们任命玛雅为主管。"
+                }
+              ],
+              "note": "须有任命资格；报道某人被任命只是告知。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "dismiss",
@@ -1470,7 +3368,33 @@
               "context": "有相应职权者宣布终止既有委员职务；不是当事人自己表示不想再任职。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "dismiss",
+                  "meaning": "解除职位",
+                  "pattern": "dismiss someone from a post"
+                },
+                {
+                  "word": "remove",
+                  "meaning": "免职",
+                  "pattern": "remove someone from office"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You are hereby dismissed from your position as treasurer.",
+                  "zh": "现解除你的财务主管职务。"
+                },
+                {
+                  "en": "The board hereby removes you from office with immediate effect.",
+                  "zh": "董事会现解除你的职务，即刻生效。"
+                }
+              ],
+              "note": "构造的有权者发言；不是依据此句提供现实人事效力判断。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "adjudicate",
@@ -1488,7 +3412,33 @@
               "context": "比赛中裁判作出出界判定，该角色和程序使判定影响比赛状态。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "rule",
+                  "meaning": "作出裁定",
+                  "pattern": "rule that … / rule in someone's favor"
+                },
+                {
+                  "word": "adjudicate",
+                  "meaning": "正式裁决",
+                  "pattern": "adjudicate a dispute"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The panel rules that the appeal is upheld.",
+                  "zh": "评审组裁定申诉成立。"
+                },
+                {
+                  "en": "I find the application ineligible under the stated rules.",
+                  "zh": "我裁定该申请不符合所列规则的资格要求。"
+                }
+              ],
+              "note": "rule、find 需裁决角色语境；实际资格与程序另核验。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "enact",
@@ -1506,7 +3456,33 @@
               "context": "有权议事机构已完成表决，发布新规则及生效时间；与仍待讨论的规则提案不同。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "enact",
+                  "meaning": "使规则正式生效",
+                  "pattern": "enact a rule"
+                },
+                {
+                  "word": "adopt",
+                  "meaning": "正式通过规则",
+                  "pattern": "adopt a policy"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The council hereby adopts the revised rules, effective today.",
+                  "zh": "理事会现通过修订后的规则，今日生效。"
+                },
+                {
+                  "en": "By this resolution, the following policy comes into effect immediately.",
+                  "zh": "依此决议，下列政策即刻生效。"
+                }
+              ],
+              "note": "有权程序语境下实施制定；介绍现有规则不是本动作。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "revoke",
@@ -1524,7 +3500,33 @@
               "context": "此前的通行许可已经存在，有相应资格者现撤销其效力；不是首次拒绝许可申请。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "revoke",
+                  "meaning": "撤销既有许可或效力",
+                  "pattern": "revoke a license / permission"
+                },
+                {
+                  "word": "rescind",
+                  "meaning": "正式撤销决定",
+                  "pattern": "rescind a decision"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I hereby revoke the permission granted on Monday.",
+                  "zh": "我现撤销周一给予的许可。"
+                },
+                {
+                  "en": "The board hereby rescinds its previous decision.",
+                  "zh": "董事会现撤销之前作出的决定。"
+                }
+              ],
+              "note": "不是撤回普通说法或未来承诺；实际效力另核验。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "declare-status",
@@ -1545,7 +3547,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S04"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "declare",
+                  "meaning": "正式宣告状态",
+                  "pattern": "declare a meeting open"
+                },
+                {
+                  "word": "pronounce",
+                  "meaning": "依程序宣告",
+                  "pattern": "pronounce a judgment"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I declare the meeting open.",
+                  "zh": "我宣布会议开始。"
+                },
+                {
+                  "en": "Under the competition rules, I declare this round void.",
+                  "zh": "依竞赛规则，我宣布本轮无效。"
+                }
+              ],
+              "note": "不是任何 announce 都能建立状态；资格和程序是必要语境。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -1571,7 +3599,33 @@
               "context": "同事早晨相遇，以惯常致意建立接触；并非真的要求提供健康状况报告。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "greet",
+                  "meaning": "问候致意",
+                  "pattern": "greet someone"
+                },
+                {
+                  "word": "say hello",
+                  "meaning": "打招呼",
+                  "pattern": "say hello to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Hi, good to see you!",
+                  "zh": "嗨，很高兴见到你！"
+                },
+                {
+                  "en": "Good morning, everyone.",
+                  "zh": "大家早上好。"
+                }
+              ],
+              "note": "惯常问候不自动索取实质信息。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "farewell",
@@ -1588,7 +3642,33 @@
               "context": "本轮交谈即将结束，说话者道别；不是要求另约时间恢复同一轮讨论。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "say goodbye",
+                  "meaning": "告别",
+                  "pattern": "say goodbye to someone"
+                },
+                {
+                  "word": "take leave",
+                  "meaning": "辞别，较正式",
+                  "pattern": "take leave of someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I'd better go now. Take care!",
+                  "zh": "我该走了，保重！"
+                },
+                {
+                  "en": "It was lovely talking to you. Goodbye!",
+                  "zh": "和你聊天很开心，再见！"
+                }
+              ],
+              "note": "避免为“告别”强配罕用单动词；常用动作短语更自然。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "check-contact",
@@ -1606,7 +3686,33 @@
               "context": "通话刚接通且声音不确定，说话者核验对方能否听见，不是在测试对方理解观点。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "check",
+                  "meaning": "检查通道",
+                  "pattern": "check whether someone can hear you"
+                },
+                {
+                  "word": "test",
+                  "meaning": "测试连接",
+                  "pattern": "test the connection"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Can you hear me now?",
+                  "zh": "现在能听到我吗？"
+                },
+                {
+                  "en": "Hello, are you still there?",
+                  "zh": "喂，你还在吗？"
+                }
+              ],
+              "note": "检查接通与检查内容理解不同。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "get-attention",
@@ -1623,7 +3729,33 @@
               "context": "现场多人各忙各事，说话者把大家的注意引向自己要展示的内容。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "get someone's attention",
+                  "meaning": "引起注意",
+                  "pattern": "get someone's attention"
+                },
+                {
+                  "word": "call out",
+                  "meaning": "出声招呼",
+                  "pattern": "call out to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Excuse me, could I have your attention for a moment?",
+                  "zh": "打扰一下，能请你注意一下吗？"
+                },
+                {
+                  "en": "Maya, over here!",
+                  "zh": "玛雅，这边！"
+                }
+              ],
+              "note": "call out 也有公开批评义；此处只指招呼以唤起注意。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "take-turn",
@@ -1641,7 +3773,33 @@
               "context": "另一人刚说完或留下可进入的位置，说话者表明要补充并争取话轮。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "speak up",
+                  "meaning": "开口参与",
+                  "pattern": "speak up in a discussion"
+                },
+                {
+                  "word": "come in",
+                  "meaning": "加入当前发言",
+                  "pattern": "come in on a point"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Could I come in here for a moment?",
+                  "zh": "我可以在这里说两句吗？"
+                },
+                {
+                  "en": "I'd like to add something before we move on.",
+                  "zh": "继续下一个话题前，我想补充一点。"
+                }
+              ],
+              "note": "speak up 也可指提高音量；这里取争取发言位置义。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "hold-turn",
@@ -1658,7 +3816,33 @@
               "context": "有人准备插话，而说话者认为自己的要点尚未完成，因此请求继续保留话轮。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "hold the floor",
+                  "meaning": "保留发言位置",
+                  "pattern": "hold the floor"
+                },
+                {
+                  "word": "continue",
+                  "meaning": "继续发言",
+                  "pattern": "continue speaking"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Please let me finish this point.",
+                  "zh": "请让我把这一点说完。"
+                },
+                {
+                  "en": "I'm not quite finished yet.",
+                  "zh": "我还没说完。"
+                }
+              ],
+              "note": "这是维持话轮，不自动反对对方内容。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "give-turn",
@@ -1678,7 +3862,33 @@
             "status": "工作定义，待语料检验",
             "sourceCaseIds": [
               "P-S02"
-            ]
+            ],
+            "english": {
+              "verbs": [
+                {
+                  "word": "hand over",
+                  "meaning": "移交发言",
+                  "pattern": "hand over to someone"
+                },
+                {
+                  "word": "yield",
+                  "meaning": "让出话轮，较正式",
+                  "pattern": "yield the floor to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Maya, over to you.",
+                  "zh": "玛雅，接下来交给你。"
+                },
+                {
+                  "en": "I've said what I wanted to say. What do you think?",
+                  "zh": "我想说的说完了，你怎么看？"
+                }
+              ],
+              "note": "可兼索取意见，但本条聚焦发言机会的移交。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "manage-topic",
@@ -1697,7 +3907,33 @@
               "context": "讨论已经偏离预算，说话者把共同议程拉回先前主题；不一定否定刚才的话题。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "introduce",
+                  "meaning": "引入议题",
+                  "pattern": "introduce a topic"
+                },
+                {
+                  "word": "return to",
+                  "meaning": "回到议题",
+                  "pattern": "return to a point"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Let's move on to the budget.",
+                  "zh": "我们接下来谈预算吧。"
+                },
+                {
+                  "en": "Coming back to your earlier question, the answer is yes.",
+                  "zh": "回到你之前的问题，答案是肯定的。"
+                }
+              ],
+              "note": "引题、换题和回题是同一目录项中的进程方向。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "summarize-dialogue",
@@ -1714,7 +3950,33 @@
               "context": "一轮讨论结束前，说话者归拢已谈过的成本和时限；尚未声明对方案达成一致。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "sum up",
+                  "meaning": "收束讨论要点",
+                  "pattern": "sum up the discussion"
+                },
+                {
+                  "word": "recap",
+                  "meaning": "回顾要点",
+                  "pattern": "recap what has been discussed"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "To sum up, we've discussed the cost, the timing, and the risks.",
+                  "zh": "总结一下，我们谈了费用、时间和风险。"
+                },
+                {
+                  "en": "Let me recap the two points still unresolved.",
+                  "zh": "我来归拢一下仍未解决的两点。"
+                }
+              ],
+              "note": "收束共同讨论不宣称已达成共识。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "pause-dialogue",
@@ -1731,7 +3993,33 @@
               "context": "讨论参与者准备休息十分钟，同时保留之后继续交流的安排。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "pause",
+                  "meaning": "暂停互动",
+                  "pattern": "pause the discussion"
+                },
+                {
+                  "word": "break off",
+                  "meaning": "暂时中断",
+                  "pattern": "break off a conversation"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Could we pause here and continue after lunch?",
+                  "zh": "我们先停一下，午饭后继续好吗？"
+                },
+                {
+                  "en": "Let's take a short break and pick this up in ten minutes.",
+                  "zh": "我们短暂休息一下，十分钟后接着谈。"
+                }
+              ],
+              "note": "保留继续可能；永久告别与暂缓决策不同。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -1757,7 +4045,33 @@
               "context": "对方已解释自己的意思，说话者确认理解，同时明确不赞同其主张。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "acknowledge",
+                  "meaning": "反馈收到",
+                  "pattern": "acknowledge receipt of something"
+                },
+                {
+                  "word": "indicate",
+                  "meaning": "表示理解层级",
+                  "pattern": "indicate that you understand"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Got it. I've received the file.",
+                  "zh": "收到了，文件我已经收到。"
+                },
+                {
+                  "en": "I see what you mean, though I'm not sure I agree.",
+                  "zh": "我听懂你的意思了，不过未必赞同。"
+                }
+              ],
+              "note": "两句分别体现接收与理解，不把它们混成同一层级或行动承诺。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "signal-problem",
@@ -1774,7 +4088,33 @@
               "context": "听者知道自己没有理解上一段内容，但尚未指出要对方如何修复。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "signal",
+                  "meaning": "表示理解困难",
+                  "pattern": "signal that you are lost"
+                },
+                {
+                  "word": "flag",
+                  "meaning": "指出理解障碍",
+                  "pattern": "flag a point you don't understand"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Sorry, you've lost me.",
+                  "zh": "抱歉，我没跟上。"
+                },
+                {
+                  "en": "I'm not sure what that last part means.",
+                  "zh": "我不太明白最后那部分是什么意思。"
+                }
+              ],
+              "note": "反馈困难，不必已经提出重说或澄清请求。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "request-repeat",
@@ -1791,7 +4131,33 @@
               "context": "听者因声音问题漏掉一句，明确要求重说；不涉及该句概念本身含义不清。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "repeat",
+                  "meaning": "重说，通常是所请求动作",
+                  "pattern": "ask someone to repeat something"
+                },
+                {
+                  "word": "say again",
+                  "meaning": "再说一次",
+                  "pattern": "ask someone to say something again"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Could you say that again?",
+                  "zh": "你能再说一遍吗？"
+                },
+                {
+                  "en": "Sorry, I didn't catch the name. Could you repeat it?",
+                  "zh": "抱歉，我没听清名字，能再说一下吗？"
+                }
+              ],
+              "note": "动作短语标明请求方向，避免把 repeat 误作请求者已完成的动作。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "self-repair",
@@ -1808,7 +4174,33 @@
               "context": "说话者本来想说周三，却脱口说成周二，马上改正输出；不是重新决定会议日期。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "correct",
+                  "meaning": "纠正自己的口误",
+                  "pattern": "correct yourself"
+                },
+                {
+                  "word": "rephrase",
+                  "meaning": "换一种措辞",
+                  "pattern": "rephrase what you said"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Turn left—sorry, I meant right.",
+                  "zh": "向左转——抱歉，我想说的是右转。"
+                },
+                {
+                  "en": "I said Tuesday, but I meant Thursday.",
+                  "zh": "我刚说周二，其实想说周四。"
+                }
+              ],
+              "note": "原本意图未变，只是把说错的表达改回来。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "other-repair",
@@ -1826,7 +4218,33 @@
               "context": "说话者根据上下文推测对方把术语说串了，提出候选修复；对方仍可否认该修复。（构造情境）"
             },
             "status": "工作定义，待语料检验",
-            "sourceCaseIds": []
+            "sourceCaseIds": [],
+            "english": {
+              "verbs": [
+                {
+                  "word": "supply",
+                  "meaning": "提供候选补词",
+                  "pattern": "supply a missing word"
+                },
+                {
+                  "word": "help",
+                  "meaning": "协助完成表达",
+                  "pattern": "help someone finish a sentence"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Do you mean “invoice,” rather than “receipt”?",
+                  "zh": "你想说的是 invoice，而不是 receipt 吧？"
+                },
+                {
+                  "en": "The word you're looking for might be “renewal.”",
+                  "zh": "你想找的那个词可能是 renewal。"
+                }
+              ],
+              "note": "以候选方式帮助对方，仍需对方确认其本意。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       }
@@ -2328,7 +4746,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "有无将材料连接到待支持的判断；列数字本身不是举证。"
+            "contrastCriterion": "有无将材料连接到待支持的判断；列数字本身不是举证。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "cite",
+                  "meaning": "援引支持材料",
+                  "pattern": "cite data as evidence for a claim"
+                },
+                {
+                  "word": "substantiate",
+                  "meaning": "用依据支持，较正式",
+                  "pattern": "substantiate a claim with records"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The log shows three failed attempts, which supports the claim that access was blocked.",
+                  "zh": "日志显示有三次失败尝试，这支持了访问受阻的判断。"
+                },
+                {
+                  "en": "To support that estimate, I'd point to last month's sales figures.",
+                  "zh": "为支持这个估计，我想援引上个月的销售数据。"
+                }
+              ],
+              "note": "cite 是援引，substantiate 强调用材料支持；都不意味着证据必然充分。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "quotation",
@@ -2358,7 +4802,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "有无标明话语归属；引述可以不赞同，更不自动构成权威论证。"
+            "contrastCriterion": "有无标明话语归属；引述可以不赞同，更不自动构成权威论证。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "quote",
+                  "meaning": "引述原话",
+                  "pattern": "quote someone as saying …"
+                },
+                {
+                  "word": "attribute",
+                  "meaning": "标明话语归属",
+                  "pattern": "attribute a statement to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The email from Maya says, “Please wait for approval.”",
+                  "zh": "玛雅的邮件写道：“请等待批准。”"
+                },
+                {
+                  "en": "To quote the report: “The sample is too small.”",
+                  "zh": "引用报告原话：“样本太小。”"
+                }
+              ],
+              "note": "引语是构造材料；quote 不等于赞同或用作专业权威依据。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "authority",
@@ -2388,7 +4858,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "是否借助被呈现为有专业资格者的判断；权威是否可靠另评。"
+            "contrastCriterion": "是否借助被呈现为有专业资格者的判断；权威是否可靠另评。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "cite",
+                  "meaning": "援引专业判断",
+                  "pattern": "cite an expert's assessment"
+                },
+                {
+                  "word": "appeal to",
+                  "meaning": "诉诸专业权威",
+                  "pattern": "appeal to expert judgment"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The structural engineer's assessment supports our view that the wall needs repair.",
+                  "zh": "结构工程师的评估支持了我们的看法：这面墙需要维修。"
+                },
+                {
+                  "en": "According to the specialist's report, this test alone cannot settle the question.",
+                  "zh": "根据专科人员的报告，单靠这项测试无法确定问题。"
+                }
+              ],
+              "note": "构造的专业来源，不指真实报告；资格与相关性须另行核验。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "norm",
@@ -2418,7 +4914,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "是否把可识别标准用作判定桥梁，而不只是说出评价。"
+            "contrastCriterion": "是否把可识别标准用作判定桥梁，而不只是说出评价。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "invoke",
+                  "meaning": "援引规则",
+                  "pattern": "invoke a rule"
+                },
+                {
+                  "word": "apply",
+                  "meaning": "把标准用于情形",
+                  "pattern": "apply a standard to a case"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Under our booking policy, this cancellation qualifies for a refund.",
+                  "zh": "按我们的预订政策，这次取消符合退款条件。"
+                },
+                {
+                  "en": "The rubric requires a source for each claim, so this section needs citations.",
+                  "zh": "评分标准要求每项主张附来源，因此这部分需要引用。"
+                }
+              ],
+              "note": "例句中的规则为构造背景；重点是把标准连接到当前判断。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "relationship",
@@ -2448,7 +4970,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "关系是否被用作当前请求的理由，而非仅介绍双方身份。"
+            "contrastCriterion": "关系是否被用作当前请求的理由，而非仅介绍双方身份。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "appeal to",
+                  "meaning": "诉诸关系",
+                  "pattern": "appeal to a shared history"
+                },
+                {
+                  "word": "invoke",
+                  "meaning": "援引既有关系",
+                  "pattern": "invoke a longstanding friendship"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "After all the years we've worked together, please hear me out.",
+                  "zh": "看在我们共事这么多年的份上，请听我说完。"
+                },
+                {
+                  "en": "You helped me last time; let me return the favor today.",
+                  "zh": "你上次帮过我，今天让我回报一下吧。"
+                }
+              ],
+              "note": "关系需被用作行动理由，单纯介绍身份不属于此操作。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "exemplification",
@@ -2478,7 +5026,33 @@
               }
             ],
             "parentReason": "组织可核查材料、规范或关系作为当前表达的支撑。",
-            "contrastCriterion": "是否提供一般说法的具体实例；说明性例子不必用来证明普遍规律。"
+            "contrastCriterion": "是否提供一般说法的具体实例；说明性例子不必用来证明普遍规律。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "illustrate",
+                  "meaning": "用例子说明",
+                  "pattern": "illustrate a point with an example"
+                },
+                {
+                  "word": "exemplify",
+                  "meaning": "作为具体例子体现，较正式",
+                  "pattern": "exemplify a general pattern"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "For example, a new user might not know where to find the settings.",
+                  "zh": "例如，新用户可能不知道去哪里找设置。"
+                },
+                {
+                  "en": "Take the checkout page: it asks for the same address twice.",
+                  "zh": "就拿结账页来说，它要求填两遍同一个地址。"
+                }
+              ],
+              "note": "说明性例子不自动证明普遍规律。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -2515,7 +5089,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "是否指定原因或责任位置；有原因归属仍不等于过错归责。"
+            "contrastCriterion": "是否指定原因或责任位置；有原因归属仍不等于过错归责。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "attribute",
+                  "meaning": "把结果归于原因",
+                  "pattern": "attribute an outcome to a cause"
+                },
+                {
+                  "word": "ascribe",
+                  "meaning": "归于，较正式",
+                  "pattern": "ascribe a result to something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "We attribute the delay to a missing approval.",
+                  "zh": "我们把延误归因于缺少一项审批。"
+                },
+                {
+                  "en": "The report places responsibility for the missed check with the shift supervisor.",
+                  "zh": "报告将漏检的责任归于当班主管。"
+                }
+              ],
+              "note": "第一句归因，第二句归责；原因与责任位置须分开辨认。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "explanation",
@@ -2545,7 +5145,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "是否展开了中间机制；仅把结果归给一个原因属于归因。"
+            "contrastCriterion": "是否展开了中间机制；仅把结果归给一个原因属于归因。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "explain",
+                  "meaning": "展开原因",
+                  "pattern": "explain how something happens"
+                },
+                {
+                  "word": "trace",
+                  "meaning": "追溯机制链",
+                  "pattern": "trace an effect back through a process"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The filter clogged, reducing the flow and causing the pump to overheat.",
+                  "zh": "过滤器堵塞使流量下降，进而导致泵过热。"
+                },
+                {
+                  "en": "Here's how the delay spread: one late delivery held up every later step.",
+                  "zh": "延误是这样传递的：一批货晚到，拖住了后续每个步骤。"
+                }
+              ],
+              "note": "展开中间环节，区别于只给出一个原因归属。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "conditional",
@@ -2575,7 +5201,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "是否让方案依赖条件；同一句条件句可以用于预测、建议或承诺。"
+            "contrastCriterion": "是否让方案依赖条件；同一句条件句可以用于预测、建议或承诺。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "condition",
+                  "meaning": "使取决于条件",
+                  "pattern": "condition approval on something"
+                },
+                {
+                  "word": "qualify",
+                  "meaning": "附加条件限定",
+                  "pattern": "qualify an offer with a condition"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "If the test passes, we'll release the update; otherwise, we'll wait.",
+                  "zh": "如果测试通过，我们就发布更新，否则继续等。"
+                },
+                {
+                  "en": "We can proceed, provided that everyone agrees on the budget.",
+                  "zh": "只要大家对预算达成一致，我们就能继续。"
+                }
+              ],
+              "note": "condition 作动词较正式；实际句式常用 if / provided that。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "counterfactual",
@@ -2605,7 +5257,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "假设是否与已知过去或当前事实相反；未知未来条件不是反事实。"
+            "contrastCriterion": "假设是否与已知过去或当前事实相反；未知未来条件不是反事实。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "suppose",
+                  "meaning": "设想与事实相反的情形",
+                  "pattern": "suppose something had happened differently"
+                },
+                {
+                  "word": "imagine",
+                  "meaning": "构造反事实",
+                  "pattern": "imagine what would have happened if …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "We missed the train. If we'd left ten minutes earlier, we would have caught it.",
+                  "zh": "我们没赶上火车；要是早出发十分钟，就赶上了。"
+                },
+                {
+                  "en": "The backup was off. Had it been on, we wouldn't have lost the draft.",
+                  "zh": "备份当时关闭了；如果开着，我们就不会丢掉草稿。"
+                }
+              ],
+              "note": "例句先给已知事实，再设置相反假设；未知未来不算反事实。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "consequence",
@@ -2635,7 +5313,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "有无展开后续结果；风险说明不因令人害怕就变成威胁。"
+            "contrastCriterion": "有无展开后续结果；风险说明不因令人害怕就变成威胁。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "trace",
+                  "meaning": "展开后果链",
+                  "pattern": "trace the consequences of an action"
+                },
+                {
+                  "word": "project",
+                  "meaning": "推演可能结果",
+                  "pattern": "project what may happen next"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "If we skip the check, errors may reach customers and lead to more returns.",
+                  "zh": "若跳过检查，错误可能流到客户手中，进而增加退货。"
+                },
+                {
+                  "en": "Delaying the repair could cause more damage, which would raise the final cost.",
+                  "zh": "拖延维修可能扩大损坏，进而增加最终费用。"
+                }
+              ],
+              "note": "呈现可能结果不保证因果链成立，也不自动是威胁。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "means-end",
@@ -2665,7 +5369,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "是否明确连接手段与意欲达到的目标，而非仅报告安排。"
+            "contrastCriterion": "是否明确连接手段与意欲达到的目标，而非仅报告安排。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "link",
+                  "meaning": "连接手段与目标",
+                  "pattern": "link an action to a goal"
+                },
+                {
+                  "word": "show",
+                  "meaning": "说明如何服务目标",
+                  "pattern": "show how a step helps achieve a goal"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "To reduce waiting time, we'll add a second service desk.",
+                  "zh": "为了缩短等待时间，我们会增设一个服务台。"
+                },
+                {
+                  "en": "This checklist helps us catch omissions before the file is sent.",
+                  "zh": "这张清单帮助我们在文件发出前发现遗漏。"
+                }
+              ],
+              "note": "保留 action / goal 搭配；只说安排而不连目标，不充分体现此操作。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "counterexample",
@@ -2695,7 +5425,33 @@
               }
             ],
             "parentReason": "显式组织理由、条件与结论之间的关系。",
-            "contrastCriterion": "例子是否被用来反驳普遍命题；后句脱离前文只是在报告，放回此语境也可能隐含反例功能。"
+            "contrastCriterion": "例子是否被用来反驳普遍命题；后句脱离前文只是在报告，放回此语境也可能隐含反例功能。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "counter",
+                  "meaning": "以反例反驳",
+                  "pattern": "counter a generalization with an example"
+                },
+                {
+                  "word": "disprove",
+                  "meaning": "以反例推翻",
+                  "pattern": "disprove a universal claim"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You said every branch is closed on Sundays, but the station branch is open.",
+                  "zh": "你说所有分店周日都关门，但车站分店开着。"
+                },
+                {
+                  "en": "One working device without internet access is enough to disprove “all devices need a connection.”",
+                  "zh": "一台无需联网也能工作的设备，就足以反驳“所有设备都需要连接”。"
+                }
+              ],
+              "note": "disprove 带推翻之意，须看反例是否真的与普遍主张不相容。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -2732,7 +5488,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "是否沿共同维度呈现差异或相同点；单纯并列名称不是比较。"
+            "contrastCriterion": "是否沿共同维度呈现差异或相同点；单纯并列名称不是比较。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "compare",
+                  "meaning": "沿共同维度比较",
+                  "pattern": "compare A with B on a criterion"
+                },
+                {
+                  "word": "contrast",
+                  "meaning": "突出差异",
+                  "pattern": "contrast A with B"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Plan A costs less per month, but Plan B includes more storage.",
+                  "zh": "方案 A 月费更低，但方案 B 存储空间更大。"
+                },
+                {
+                  "en": "Both routes take an hour, but the train requires no transfers.",
+                  "zh": "两条路线都要一小时，但火车不用换乘。"
+                }
+              ],
+              "note": "要有可恢复的共同维度，单列两个名称不够。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "analogy",
@@ -2762,7 +5544,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "是否展开跨领域的关系对应；短隐喻可以存在而尚未构成展开的类比。"
+            "contrastCriterion": "是否展开跨领域的关系对应；短隐喻可以存在而尚未构成展开的类比。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "compare",
+                  "meaning": "作类比",
+                  "pattern": "compare a process to another process"
+                },
+                {
+                  "word": "liken",
+                  "meaning": "比作",
+                  "pattern": "liken A to B"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Think of the queue as a checkout line: each job waits until a clerk is free.",
+                  "zh": "把队列想成结账队伍：每个任务都等到有收银员空闲才处理。"
+                },
+                {
+                  "en": "A budget works like a map: it guides choices, but it doesn't make the journey for you.",
+                  "zh": "预算像地图：它指引选择，却不会替你走完路程。"
+                }
+              ],
+              "note": "例句展开关系对应；类比可帮助理解，不保证推论有效。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "reframing",
@@ -2792,7 +5600,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "是否换了同一问题的评价框架，而不是另开无关话题。"
+            "contrastCriterion": "是否换了同一问题的评价框架，而不是另开无关话题。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "reframe",
+                  "meaning": "重设问题框架",
+                  "pattern": "reframe a problem as something else"
+                },
+                {
+                  "word": "recast",
+                  "meaning": "换框架呈现",
+                  "pattern": "recast an issue in terms of something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Rather than asking who's at fault, let's ask which part of the process failed.",
+                  "zh": "与其问谁有错，不如问流程哪一环出了问题。"
+                },
+                {
+                  "en": "Let's treat this as a capacity problem rather than a motivation problem.",
+                  "zh": "我们把这件事视为容量问题，而非积极性问题。"
+                }
+              ],
+              "note": "同一情形换评价或问题框架；换到无关话题不算。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "perspective",
@@ -2822,7 +5656,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "视角来自谁的位置必须可定位；此对照两句都采用操作，只改变观察者。"
+            "contrastCriterion": "视角来自谁的位置必须可定位；此对照两句都采用操作，只改变观察者。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "consider",
+                  "meaning": "从特定位置考虑",
+                  "pattern": "consider an issue from someone's perspective"
+                },
+                {
+                  "word": "view",
+                  "meaning": "从某角度看",
+                  "pattern": "view something through someone's eyes"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "From a first-time user's perspective, that label gives no clue what to do.",
+                  "zh": "从首次使用者的角度看，那个标签没有提示该做什么。"
+                },
+                {
+                  "en": "Put yourself in the receptionist's position: several people are asking at once.",
+                  "zh": "站在接待员的位置想想：好几个人正在同时发问。"
+                }
+              ],
+              "note": "说明谁的位置，避免把自己的猜测说成对方真实想法。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "scope",
@@ -2852,7 +5712,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "前句缩小命题适用范围，后句降低对命题的确信，二者可并用。"
+            "contrastCriterion": "前句缩小命题适用范围，后句降低对命题的确信，二者可并用。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "limit",
+                  "meaning": "限定适用范围",
+                  "pattern": "limit a claim to a group"
+                },
+                {
+                  "word": "restrict",
+                  "meaning": "限制范围",
+                  "pattern": "restrict an analysis to a period"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "This conclusion applies only to the users in our sample.",
+                  "zh": "这个结论只适用于我们样本中的用户。"
+                },
+                {
+                  "en": "For this discussion, I'm referring to weekday services only.",
+                  "zh": "这次讨论中，我只指工作日的服务。"
+                }
+              ],
+              "note": "限定对象或范围，与降低确信程度不同。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "scale",
@@ -2882,7 +5768,33 @@
               }
             ],
             "parentReason": "调整比较对象、范围、视角或呈现尺度。",
-            "contrastCriterion": "是否显式改变累计单位、分母或跨度；须保留换算口径。"
+            "contrastCriterion": "是否显式改变累计单位、分母或跨度；须保留换算口径。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "rescale",
+                  "meaning": "重新按尺度表达",
+                  "pattern": "rescale a figure to a common basis"
+                },
+                {
+                  "word": "convert",
+                  "meaning": "换算单位或时间尺度",
+                  "pattern": "convert an annual cost to a monthly cost"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "That's one hundred and twenty dollars a year, or ten dollars a month.",
+                  "zh": "一年是一百二十美元，也就是每月十美元。"
+                },
+                {
+                  "en": "There were ten failures in a thousand attempts: a one percent failure rate.",
+                  "zh": "一千次尝试中失败十次，失败率是百分之一。"
+                }
+              ],
+              "note": "保留分母和换算口径；rescale 较技术，日常也可用 express per …。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -2919,7 +5831,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "前句给用语判据，后句用该词作判断；定义本身不改变制度状态。"
+            "contrastCriterion": "前句给用语判据，后句用该词作判断；定义本身不改变制度状态。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "define",
+                  "meaning": "界定用语",
+                  "pattern": "define a term as …"
+                },
+                {
+                  "word": "specify",
+                  "meaning": "明确判据",
+                  "pattern": "specify what counts as something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "By “active user,” I mean someone who signed in within the last thirty days.",
+                  "zh": "我说的“活跃用户”指过去三十天内登录过的人。"
+                },
+                {
+                  "en": "For this discussion, a “delay” means an arrival more than ten minutes late.",
+                  "zh": "在这次讨论中，“延误”指到达时间晚了十分钟以上。"
+                }
+              ],
+              "note": "界定当前用法，不声称该定义适用于一切语境。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "distinction",
@@ -2949,7 +5887,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "辨析要比较邻近概念的判别条件；只解释一个词主要是界定。"
+            "contrastCriterion": "辨析要比较邻近概念的判别条件；只解释一个词主要是界定。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "distinguish",
+                  "meaning": "辨别概念",
+                  "pattern": "distinguish A from B"
+                },
+                {
+                  "word": "differentiate",
+                  "meaning": "说明差别",
+                  "pattern": "differentiate between A and B"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Permission lets you act; authorization here lets you act on someone's behalf.",
+                  "zh": "许可让你行动；这里的授权还让你代表他人行动。"
+                },
+                {
+                  "en": "Being informed is different from agreeing: you can understand a claim and still reject it.",
+                  "zh": "知悉不同于赞同：你可以听懂一个主张却仍不接受它。"
+                }
+              ],
+              "note": "比较近邻概念的判据，不只是单独给一个定义。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "decomposition",
@@ -2979,7 +5943,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "前句拆整体的组成，后句排列行动步骤；分解与顺序可组合。"
+            "contrastCriterion": "前句拆整体的组成，后句排列行动步骤；分解与顺序可组合。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "break down",
+                  "meaning": "拆成部分",
+                  "pattern": "break something down into parts"
+                },
+                {
+                  "word": "divide",
+                  "meaning": "划分子问题",
+                  "pattern": "divide a problem into smaller questions"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Let's break the cost down into materials, labor, and delivery.",
+                  "zh": "我们把费用分成材料、人工和配送三部分。"
+                },
+                {
+                  "en": "There are two separate questions: whether it works and whether we can afford it.",
+                  "zh": "这里有两个不同的问题：是否有效，以及是否负担得起。"
+                }
+              ],
+              "note": "分解组成不自动规定先后执行顺序。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "background",
@@ -3009,7 +5999,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "前句补情境但保留因果，后句直接作因果判断；背景可后来成为理由。"
+            "contrastCriterion": "前句补情境但保留因果，后句直接作因果判断；背景可后来成为理由。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "contextualize",
+                  "meaning": "放入背景，较正式",
+                  "pattern": "contextualize a decision"
+                },
+                {
+                  "word": "fill in",
+                  "meaning": "补充缺失背景",
+                  "pattern": "fill someone in on the background"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "For context, the team had only two people at the time.",
+                  "zh": "补充一下背景，当时团队只有两个人。"
+                },
+                {
+                  "en": "Before we discuss the reply, you should know that the request arrived after closing.",
+                  "zh": "在讨论这次回复之前，要知道那条请求是在关门后收到的。"
+                }
+              ],
+              "note": "背景可以后来用作理由，补入背景本身不必已经建立因果。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "restatement",
@@ -3039,7 +6055,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "核心承诺是否保持；后句不是重述而是歪曲。重述不保证实际忠实。"
+            "contrastCriterion": "核心承诺是否保持；后句不是重述而是歪曲。重述不保证实际忠实。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "rephrase",
+                  "meaning": "换一种措辞",
+                  "pattern": "rephrase a statement"
+                },
+                {
+                  "word": "restate",
+                  "meaning": "重述同一要点",
+                  "pattern": "restate a point in simpler terms"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Only members can enter. In other words, you need membership to get in.",
+                  "zh": "只有会员能进，换句话说，进入需要会员资格。"
+                },
+                {
+                  "en": "The deadline is fixed. Put simply, we can't move the date.",
+                  "zh": "截止日期固定，简单说，我们不能改日期。"
+                }
+              ],
+              "note": "保留核心承诺；换措辞不保证实际忠实。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "summary",
@@ -3069,7 +6111,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "摘要压缩多项信息，换言重述主要改写一个已给命题。"
+            "contrastCriterion": "摘要压缩多项信息，换言重述主要改写一个已给命题。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "summarize",
+                  "meaning": "压缩要点",
+                  "pattern": "summarize a report"
+                },
+                {
+                  "word": "condense",
+                  "meaning": "浓缩内容",
+                  "pattern": "condense a discussion into key points"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "In short, the trial was cheaper, faster, and easier to maintain.",
+                  "zh": "概括来说，这次试行更便宜、更快，也更易维护。"
+                },
+                {
+                  "en": "The three main findings are lower demand, longer waits, and higher costs.",
+                  "zh": "三个主要发现是需求下降、等待加长、成本上升。"
+                }
+              ],
+              "note": "例句为构造的摘要，假定前文已展开多项信息。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "sequence",
@@ -3099,7 +6167,33 @@
               }
             ],
             "parentReason": "让已有内容更可理解、可复述或更有重点。",
-            "contrastCriterion": "是否给出先后约束；列部件不等于排序，时间先后也不保证因果。"
+            "contrastCriterion": "是否给出先后约束；列部件不等于排序，时间先后也不保证因果。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "sequence",
+                  "meaning": "按序安排",
+                  "pattern": "sequence a set of steps"
+                },
+                {
+                  "word": "order",
+                  "meaning": "按顺序组织",
+                  "pattern": "order events chronologically"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "First save the file, then close the app, and finally restart the device.",
+                  "zh": "先保存文件，再关闭应用，最后重启设备。"
+                },
+                {
+                  "en": "Before we discuss solutions, let's review what happened.",
+                  "zh": "讨论解决方案之前，我们先回顾经过。"
+                }
+              ],
+              "note": "排列先后不等于证明因果。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -3136,7 +6230,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "是否采用前提；转述不等于接受，暂用也不等于最终认可。"
+            "contrastCriterion": "是否采用前提；转述不等于接受，暂用也不等于最终认可。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "acknowledge",
+                  "meaning": "承认前文要点",
+                  "pattern": "acknowledge a point"
+                },
+                {
+                  "word": "grant",
+                  "meaning": "暂承前提，偏论辩",
+                  "pattern": "grant that …"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I accept your point that the sample is small. Let's use that as our starting point.",
+                  "zh": "我接受你说的样本偏小这一点，我们从这里谈起。"
+                },
+                {
+                  "en": "Taking your estimate as given for now, we still need to discuss the schedule.",
+                  "zh": "暂且接受你的估计，我们仍需讨论日程。"
+                }
+              ],
+              "note": "暂纳入讨论基础不等于最终认可全部主张。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "concession",
@@ -3166,7 +6286,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "是否承认不利点后抵消其预期结论；让步转折不等于在谈判中让出利益。"
+            "contrastCriterion": "是否承认不利点后抵消其预期结论；让步转折不等于在谈判中让出利益。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "concede",
+                  "meaning": "承认不利论点",
+                  "pattern": "concede that …"
+                },
+                {
+                  "word": "acknowledge",
+                  "meaning": "承认后保留主结论",
+                  "pattern": "acknowledge a limitation while maintaining a claim"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "The new system is faster, but it still costs too much.",
+                  "zh": "新系统更快，但仍然太贵。"
+                },
+                {
+                  "en": "Granted, the sample is small; nevertheless, the result deserves further study.",
+                  "zh": "诚然，样本很小，不过这个结果仍值得进一步研究。"
+                }
+              ],
+              "note": "这里是论述上的让步转折，不是谈判让出利益。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "anticipation",
@@ -3196,7 +6342,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "前句预置潜在异议，后句回应实际异议；不得将假想异议归成对方原话。"
+            "contrastCriterion": "前句预置潜在异议，后句回应实际异议；不得将假想异议归成对方原话。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "anticipate",
+                  "meaning": "预先考虑异议",
+                  "pattern": "anticipate an objection"
+                },
+                {
+                  "word": "address",
+                  "meaning": "回应预期问题",
+                  "pattern": "address a possible concern"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You might object that this takes longer. That's true initially, but it saves rework later.",
+                  "zh": "你可能会反对说这更费时；起初确实如此，但以后能减少返工。"
+                },
+                {
+                  "en": "One possible concern is cost; we can test that with a small pilot.",
+                  "zh": "一个可能的担忧是成本，我们可以通过小规模试点检验。"
+                }
+              ],
+              "note": "明示这是可能异议，不冒充对方原话。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "hedging",
@@ -3226,7 +6398,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "对同一命题的认识承诺是否减弱；不是泛指任何温柔或客气措辞。"
+            "contrastCriterion": "对同一命题的认识承诺是否减弱；不是泛指任何温柔或客气措辞。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "hedge",
+                  "meaning": "对断言加限定",
+                  "pattern": "hedge a claim"
+                },
+                {
+                  "word": "qualify",
+                  "meaning": "限定确信或证据范围",
+                  "pattern": "qualify a statement"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Based on the data available so far, this seems to be the main cause.",
+                  "zh": "根据目前的数据，这似乎是主要原因。"
+                },
+                {
+                  "en": "The change may have helped, though we can't be certain yet.",
+                  "zh": "这项改变可能起了作用，不过现在还不能确定。"
+                }
+              ],
+              "note": "降低认识承诺，不等于泛指礼貌或温柔。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "boosting",
@@ -3256,7 +6454,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "是否加入显式强化标记；标记提高表达力度，不增加证据，也不证明说者生气。"
+            "contrastCriterion": "是否加入显式强化标记；标记提高表达力度，不增加证据，也不证明说者生气。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "emphasize",
+                  "meaning": "突出重要性",
+                  "pattern": "emphasize a point"
+                },
+                {
+                  "word": "reinforce",
+                  "meaning": "加强表达力度",
+                  "pattern": "reinforce the importance of something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I want to emphasize that this is essential, not optional.",
+                  "zh": "我想强调，这是必要要求，不是可选项。"
+                },
+                {
+                  "en": "There is absolutely no doubt in my mind that we need to act now.",
+                  "zh": "我毫不怀疑，我们现在就需要行动。"
+                }
+              ],
+              "note": "提高表达确定性或重要性，不增加证据。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "self-correction",
@@ -3286,7 +6510,33 @@
               }
             ],
             "parentReason": "安排本方与他方观点的承接、限定和冲突。",
-            "contrastCriterion": "被修复的是自己的前述表达还是他人的说法；修正可改变内容但不必包含道歉。"
+            "contrastCriterion": "被修复的是自己的前述表达还是他人的说法；修正可改变内容但不必包含道歉。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "correct",
+                  "meaning": "显式修正自己",
+                  "pattern": "correct your earlier statement"
+                },
+                {
+                  "word": "revise",
+                  "meaning": "修订先前主张",
+                  "pattern": "revise a claim"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I said fifteen earlier; let me correct that to fifty.",
+                  "zh": "我之前说了十五，纠正一下，应该是五十。"
+                },
+                {
+                  "en": "I called it a requirement, but “recommendation” is more accurate.",
+                  "zh": "我刚称它为要求，但“建议”更准确。"
+                }
+              ],
+              "note": "这是局部操作，可用于口误修复，也可伴随主张修订。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -3323,7 +6573,33 @@
               }
             ],
             "parentReason": "安排可回应的位置、选择与下一步。",
-            "contrastCriterion": "是否明确替代已有方案；后句单独看是提议，放在此语境仍可能承担替代操作。"
+            "contrastCriterion": "是否明确替代已有方案；后句单独看是提议，放在此语境仍可能承担替代操作。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "replace",
+                  "meaning": "以替代选项取代",
+                  "pattern": "replace one plan with another"
+                },
+                {
+                  "word": "suggest",
+                  "meaning": "提出替代路径",
+                  "pattern": "suggest an alternative to something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Instead of buying new equipment, we could rent it.",
+                  "zh": "与其买新设备，我们也可以租。"
+                },
+                {
+                  "en": "If the morning slot doesn't work, how about late afternoon?",
+                  "zh": "如果上午不行，下午晚些时候怎么样？"
+                }
+              ],
+              "note": "须有既有方案或可恢复的比较对象。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "choice-set",
@@ -3353,7 +6629,33 @@
               }
             ],
             "parentReason": "安排可回应的位置、选择与下一步。",
-            "contrastCriterion": "有无显式选择集；有限选项不应被默认为全部可能。"
+            "contrastCriterion": "有无显式选择集；有限选项不应被默认为全部可能。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "offer",
+                  "meaning": "提供有限选项",
+                  "pattern": "offer a choice between A and B"
+                },
+                {
+                  "word": "present",
+                  "meaning": "列出可回应选项",
+                  "pattern": "present someone with options"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Would you prefer a refund, a replacement, or more time to decide?",
+                  "zh": "你想退款、换货，还是再考虑一下？"
+                },
+                {
+                  "en": "We can call today or meet tomorrow. Which suits you better?",
+                  "zh": "我们可以今天通话，也可以明天见面，哪个更适合你？"
+                }
+              ],
+              "note": "显式选项不默认为全部可能，避免把列举变成虚假两难。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "turn-allocation",
@@ -3383,7 +6685,33 @@
               }
             ],
             "parentReason": "安排可回应的位置、选择与下一步。",
-            "contrastCriterion": "是否明确分配接续者或发言位置，而非仅列出内容任务。"
+            "contrastCriterion": "是否明确分配接续者或发言位置，而非仅列出内容任务。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "invite",
+                  "meaning": "指定人回应",
+                  "pattern": "invite someone to respond"
+                },
+                {
+                  "word": "allocate",
+                  "meaning": "分配话轮",
+                  "pattern": "allocate the next turn to someone"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Maya, could you respond to the question about timing?",
+                  "zh": "玛雅，你能回应一下关于时间的问题吗？"
+                },
+                {
+                  "en": "Let's hear from the remote participants next.",
+                  "zh": "接下来请远程参会者发言。"
+                }
+              ],
+              "note": "本操作点明接续者或位置，可服务于多种目的。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "metadiscourse",
@@ -3413,7 +6741,33 @@
               }
             ],
             "parentReason": "安排可回应的位置、选择与下一步。",
-            "contrastCriterion": "前句标记当前话语动作，后句直接实施范围限定；路标仍须与后文核对。"
+            "contrastCriterion": "前句标记当前话语动作，后句直接实施范围限定；路标仍须与后文核对。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "signal",
+                  "meaning": "标明论述动作",
+                  "pattern": "signal a shift in the argument"
+                },
+                {
+                  "word": "signpost",
+                  "meaning": "用路标组织论述",
+                  "pattern": "signpost the next part of a discussion"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Let me give an example before returning to the main point.",
+                  "zh": "我先举个例子，再回到主要论点。"
+                },
+                {
+                  "en": "I'll first explain the problem, then outline two possible solutions.",
+                  "zh": "我会先解释问题，再概述两种可能的解决方案。"
+                }
+              ],
+              "note": "路标是对正在做什么的说明，须与实际后文核对。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "repair-check",
@@ -3443,7 +6797,33 @@
               }
             ],
             "parentReason": "安排可回应的位置、选择与下一步。",
-            "contrastCriterion": "是否在核对已有表达的理解；普通新信息请求不是对话修复。"
+            "contrastCriterion": "是否在核对已有表达的理解；普通新信息请求不是对话修复。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "check",
+                  "meaning": "嵌入理解核对",
+                  "pattern": "check that a reference is clear"
+                },
+                {
+                  "word": "clarify",
+                  "meaning": "确认指代",
+                  "pattern": "clarify which item is meant"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Open the draft—the one dated Monday; is that the file you have?—and check the heading.",
+                  "zh": "打开草稿，就是周一那份，你手里的是这份吗？然后检查标题。"
+                },
+                {
+                  "en": "We'll ask Alex—you know which Alex I mean, right?—to review it.",
+                  "zh": "我们请亚历克斯来审阅，你知道我指的是哪位亚历克斯，对吧？"
+                }
+              ],
+              "note": "核对点嵌在较大表达中；不同于索取全新信息。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       },
@@ -3480,7 +6860,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "前句在该语境借预期答案追责，后句可真诚核实日期；仅看问号不能判。若确实等待解释，可兼有询问 P。"
+            "contrastCriterion": "前句在该语境借预期答案追责，后句可真诚核实日期；仅看问号不能判。若确实等待解释，可兼有询问 P。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "imply",
+                  "meaning": "借问句传达判断",
+                  "pattern": "imply a claim through a question"
+                },
+                {
+                  "word": "assert",
+                  "meaning": "以反问断言",
+                  "pattern": "assert a point rhetorically"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "You knew the deadline. How could you leave it until the last minute?",
+                  "zh": "你知道截止日期，怎么还能拖到最后一刻？"
+                },
+                {
+                  "en": "With no staff and no budget, how could this plan possibly work?",
+                  "zh": "既没人手又没预算，这个计划怎么可能行得通？"
+                }
+              ],
+              "note": "构造语境中期待承认判断；若确实等解释，仍可能兼询问。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "parallelism",
@@ -3510,7 +6916,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "是否重复句法骨架；两句目标相近，后句只是并列动作。"
+            "contrastCriterion": "是否重复句法骨架；两句目标相近，后句只是并列动作。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "parallel",
+                  "meaning": "使结构对应",
+                  "pattern": "parallel one clause with another"
+                },
+                {
+                  "word": "structure",
+                  "meaning": "按重复骨架组织",
+                  "pattern": "structure statements in parallel"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "We need clearer goals, we need better tools, and we need more time.",
+                  "zh": "我们需要更清楚的目标，我们需要更好的工具，我们需要更多时间。"
+                },
+                {
+                  "en": "Ask what changed, ask why it changed, and ask what comes next.",
+                  "zh": "问发生了什么变化，问为何变化，问接下来会怎样。"
+                }
+              ],
+              "note": "parallel 作动词偏写作分析；实际表达体现重复句法骨架。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "repetition",
@@ -3540,7 +6972,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "是否复现同一关键内容；平行结构可以不重复同一词语。"
+            "contrastCriterion": "是否复现同一关键内容；平行结构可以不重复同一词语。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "repeat",
+                  "meaning": "重复关键内容",
+                  "pattern": "repeat a key phrase"
+                },
+                {
+                  "word": "reiterate",
+                  "meaning": "重申要点",
+                  "pattern": "reiterate a point"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "Check the address. Before you send it, check the address.",
+                  "zh": "核对地址，发送之前，再核对地址。"
+                },
+                {
+                  "en": "We need time—time to test, time to learn, time to fix things.",
+                  "zh": "我们需要时间，时间去测试，时间去学习，时间去修正。"
+                }
+              ],
+              "note": "复现关键词或命题；可与平行结构同时出现。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "metaphor",
@@ -3570,7 +7028,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "是否借另一领域概念理解对象；不必像展开类比那样列对应关系。"
+            "contrastCriterion": "是否借另一领域概念理解对象；不必像展开类比那样列对应关系。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "liken",
+                  "meaning": "借形象比拟",
+                  "pattern": "liken an idea to something"
+                },
+                {
+                  "word": "describe",
+                  "meaning": "用隐喻描述",
+                  "pattern": "describe something as something else"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "This checklist is our safety net.",
+                  "zh": "这张清单是我们的安全网。"
+                },
+                {
+                  "en": "That question opened the door to a different solution.",
+                  "zh": "那个问题为另一种解决方案打开了门。"
+                }
+              ],
+              "note": "保留比拟或隐喻搭配，describe 单独不限定此操作。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "irony",
@@ -3600,7 +7084,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "字面称赞与共有事实是否冲突并传达疏离评价；脱离迟到背景，前句也可能是真赞扬。"
+            "contrastCriterion": "字面称赞与共有事实是否冲突并传达疏离评价；脱离迟到背景，前句也可能是真赞扬。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "mock",
+                  "meaning": "以反话嘲弄",
+                  "pattern": "mock a situation ironically"
+                },
+                {
+                  "word": "remark",
+                  "meaning": "反语评论",
+                  "pattern": "remark ironically on something"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "After the app crashes for the third time: “Well, that's reliable.”",
+                  "zh": "应用第三次崩溃后说：“嗯，可真可靠。”"
+                },
+                {
+                  "en": "Seeing a completely empty shelf: “What an amazing selection.”",
+                  "zh": "看到空空的货架后说：“选择可真丰富。”"
+                }
+              ],
+              "note": "语境是反语判据的一部分；mock 可比一般反语更带嘲弄色彩。",
+              "kind": "构造教学材料"
+            }
           },
           {
             "id": "hyperbole",
@@ -3630,7 +7140,33 @@
               }
             ],
             "parentReason": "用可识别的修辞结构承载不同交际目的。",
-            "contrastCriterion": "是否采用可识别的非字面极端尺度；若认真声称统计一万次，应作为事实断言核查。"
+            "contrastCriterion": "是否采用可识别的非字面极端尺度；若认真声称统计一万次，应作为事实断言核查。",
+            "english": {
+              "verbs": [
+                {
+                  "word": "exaggerate",
+                  "meaning": "有意放大",
+                  "pattern": "exaggerate for effect"
+                },
+                {
+                  "word": "overstate",
+                  "meaning": "夸大程度",
+                  "pattern": "overstate how much or how often"
+                }
+              ],
+              "sentences": [
+                {
+                  "en": "I've told you a million times to save your work.",
+                  "zh": "我都跟你说过一百万次要保存了。"
+                },
+                {
+                  "en": "This bag weighs a ton.",
+                  "zh": "这包重得有一吨。"
+                }
+              ],
+              "note": "例句按非字面夸张理解；overstate 也可指无意夸大，需说明用途。",
+              "kind": "构造教学材料"
+            }
           }
         ]
       }

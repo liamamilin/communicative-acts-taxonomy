@@ -646,3 +646,20 @@ mark {
 @media print{.match-reason{display:none}}
 
 #top{scroll-margin-top:calc(var(--bar) + .75rem)}.article-axis-jumps{max-width:23rem;margin:.75rem 0 .35rem}.article-axis-jumps a{border-color:var(--line);padding:.5rem .4rem}.is-filtering .title-block{margin-bottom:0}.is-filtering .article-axis-jumps{margin-bottom:1rem}
+
+/* English action vocabulary follows each entry's existing reading column. */
+.english-expression { margin: 1.1rem 0; padding: .85rem 1rem; border-left: 2px solid var(--indigo); background: var(--paper-2); overflow-wrap: anywhere; }
+.english-expression h5 { margin: 0; font-family: var(--sans); font-size: .9rem; font-weight: 600; color: var(--indigo); }
+.english-label { margin: .1rem 0 .65rem; font-family: var(--sans); font-size: .72rem; color: var(--ink-soft); }
+.english-verbs { list-style: none; padding: 0; margin: 0; }
+.english-verbs li { margin: .45rem 0; font-size: .9rem; }
+.english-expression [lang="en"] { font-family: var(--latin); }
+.english-verbs strong { font-size: 1.08rem; font-weight: 600; }
+.english-pattern { margin: .1rem 0 0; color: var(--ink-soft); font-size: .95rem; }
+.english-sentences { margin: .8rem 0; padding-left: 1.25rem; }
+.english-sentences li { padding-left: .15rem; margin: .65rem 0; }
+.english-sentences p { margin: .1rem 0; }
+.english-sentences [lang="en"] { font-size: 1.05rem; line-height: 1.55; }
+.english-translation { color: var(--ink-soft); font-size: .85rem; }
+.english-note { margin: .65rem 0 0; color: var(--ink-soft); font-size: .8rem; }
+@media (max-width: 600px) { .english-expression { padding: .7rem .8rem; } }

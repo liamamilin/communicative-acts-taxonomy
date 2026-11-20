@@ -40,6 +40,22 @@ for a in ('P','O','S'):
  names=[e['name'] for g in cat[a]['groups'] for e in g['entries']]
  assert len(names)==len(set(names)),(a,'duplicate canonical names')
 print('CATALOG', '; '.join(f"{a}: {len(v['groups'])} groups / {len(lookup[a])} entries" for a,v in cat.items()))
+english_count=0
+for axis in ('P','O'):
+ for g in cat[axis]['groups']:
+  for e in g['entries']:
+   en=e.get('english',{})
+   assert en.get('kind')=='构造教学材料' and en.get('note'),(axis,e['id'],'English provenance/note')
+   assert len(en.get('verbs',[]))>=2 and len(en.get('sentences',[]))>=2,(axis,e['id'],'English coverage')
+   assert len({v['word'] for v in en['verbs']})==len(en['verbs']),(axis,e['id'],'duplicate verbs')
+   for v in en['verbs']:
+    assert all(isinstance(v.get(k),str) and v[k].strip() for k in ('word','meaning','pattern')),(axis,e['id'],v)
+    assert re.fullmatch(r"[A-Za-z][A-Za-z '\-]*",v['word']),(axis,e['id'],'English action term')
+   for s in en['sentences']:
+    assert s.get('en') and re.search('[A-Za-z]',s['en']) and s.get('zh') and re.search('[\u3400-\u9fff]',s['zh']),(axis,e['id'],'bilingual sentence')
+   english_count+=1
+assert not any(e.get('english') for g in cat['S']['groups'] for e in g['entries']),'Style is outside action vocabulary scope'
+print(f'PASS English: {english_count} P/O entries with action terms, patterns, bilingual constructed examples and usage notes.')
 assert len({c['id'] for c in cs})==len(cs)
 for c in cs:
  assert all(c.get(k) for k in ('id','kind','quote','context','roles','alternative','cop','style','content','outcome','axis_note'))
