@@ -1,5 +1,6 @@
 """Validate catalog integrity, not linguistic truth or exhaustiveness."""
 from pathlib import Path
+from urllib.parse import urlsplit
 import json,re
 r=Path(__file__).resolve().parents[1]
 cat=json.loads((r/'data/catalogs.json').read_text());cs=json.loads((r/'data/cases.json').read_text())
@@ -70,5 +71,5 @@ for f in r.rglob('*.md'):
  for target in re.findall(r'\]\(([^)]+)\)',f.read_text()):
   if not re.match(r'https?://|#|mailto:',target):assert (f.parent/target.split('#')[0]).exists(),(f,target)
 for target in re.findall(r'(?:src|href)="([^"]+)"',(r/'index.html').read_text()):
- if not re.match(r'https?://|#',target):assert (r/target).exists(),target
+ if not re.match(r'https?://|#',target):assert (r/urlsplit(target).path).exists(),target
 print(f'PASS: sources, examples, aliases, IDs, case links and local links; {len(cs)} shared cases.')

@@ -48,3 +48,5 @@ DOM 测试使用临时安装的 jsdom，不引入网站运行依赖。新增检�
 定向参考了 Cambridge 的 [clarify](https://dictionary.cambridge.org/dictionary/english/clarify) 和 [counter-offer](https://dictionary.cambridge.org/dictionary/english/counter-offer) 词条检索结果：前者描述使内容清楚的动作；后者提供 `make a counteroffer` 的用法参考。没有复用其例句，也没有把此次复核称作词频或自然语料验证。
 
 修订后再次通过结构检查、JS 语法检查、现有 DOM 交互测试及差异空白检查。原分类与共同案例未作改动。
+
+线上复核还发现已有浏览器标签会复用旧 JSON 缓存。数据加载现使用 `cache: no-cache` 在刷新时校验更新；HTML 的脚本链接增加版本参数，以使本轮已打开过的浏览器取得这项修复。
