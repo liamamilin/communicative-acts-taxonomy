@@ -121,9 +121,9 @@
                   "pattern": "confirm that …"
                 },
                 {
-                  "word": "verify",
-                  "meaning": "核实信息",
-                  "pattern": "verify a detail"
+                  "word": "affirm",
+                  "meaning": "肯定某项主张，较正式",
+                  "pattern": "affirm that a statement is true"
                 }
               ],
               "sentences": [
@@ -136,7 +136,7 @@
                   "zh": "我可以确认，我们已收到你的付款。"
                 }
               ],
-              "note": "verify 偏核验过程；confirm 可用来给出确认，均不等于答应行动。",
+              "note": "confirm、affirm 给出肯定确认；verify 偏核验过程，核验后也可能否定候选事实，因此不作为本条动作词。",
               "kind": "构造教学材料"
             }
           },
@@ -175,8 +175,8 @@
                   "zh": "其实截止日期是周五，不是周四。"
                 },
                 {
-                  "en": "Let me correct that: the total is eighty dollars.",
-                  "zh": "我纠正一下：总额是八十美元。"
+                  "en": "The invoice shows eighty dollars, so my earlier claim that the total was seventy was wrong.",
+                  "zh": "发票上是八十美元，所以我先前说总额是七十美元的判断有误。"
                 }
               ],
               "note": "例句针对事实或数字错误；若只是说错词而原意未变，归入表达修复。",
@@ -427,14 +427,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "check",
-                  "meaning": "核对候选信息",
-                  "pattern": "check whether …"
+                  "word": "seek confirmation",
+                  "meaning": "寻求事实确认",
+                  "pattern": "seek confirmation of a report"
                 },
                 {
-                  "word": "verify",
-                  "meaning": "核实",
-                  "pattern": "verify whether …"
+                  "word": "ask whether",
+                  "meaning": "询问候选命题是否属实",
+                  "pattern": "ask whether a statement is true"
                 }
               ],
               "sentences": [
@@ -447,7 +447,7 @@
                   "zh": "你能确认一下这是不是最新版本吗？"
                 }
               ],
-              "note": "问题提出候选事实并等待核实，不等于已确认。",
+              "note": "词组描述发问者寻求核实的动作，不等于自己已经核验或对方已经确认；问题允许肯定或否定回答。",
               "kind": "构造教学材料"
             }
           },
@@ -557,14 +557,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "clarify",
-                  "meaning": "澄清",
-                  "pattern": "ask someone to clarify a point"
+                  "word": "ask for clarification",
+                  "meaning": "请求澄清含义",
+                  "pattern": "ask someone for clarification of a point"
                 },
                 {
-                  "word": "specify",
-                  "meaning": "说明具体所指",
-                  "pattern": "ask someone to specify what they mean"
+                  "word": "request clarification",
+                  "meaning": "请求进一步说明，较正式",
+                  "pattern": "request clarification of what someone means"
                 }
               ],
               "sentences": [
@@ -577,7 +577,7 @@
                   "zh": "你能说明一下你指的是哪个版本吗？"
                 }
               ],
-              "note": "请求澄清针对含义不明，不只是没听清声音。",
+              "note": "请求者 ask for / request clarification，对方才执行 clarify；请求澄清针对含义不明，不只是没听清声音。",
               "kind": "构造教学材料"
             }
           },
@@ -1255,9 +1255,9 @@
                   "pattern": "threaten to do something"
                 },
                 {
-                  "word": "intimidate",
-                  "meaning": "以威吓施压",
-                  "pattern": "intimidate someone into doing something"
+                  "word": "make a threat",
+                  "meaning": "发出威胁",
+                  "pattern": "make a threat against someone"
                 }
               ],
               "sentences": [
@@ -1270,7 +1270,7 @@
                   "zh": "照我说的做，否则我就毁掉你的文件。"
                 }
               ],
-              "note": "构造的识别例；threaten 可指威胁尝试，intimidate 常带造成畏惧之意。",
+              "note": "构造的识别例；发出威胁不要求实际造成恐惧、迫使服从或确有能力施加后果。",
               "kind": "构造教学材料"
             }
           },
@@ -1364,9 +1364,9 @@
                   "pattern": "plead with someone for mercy"
                 },
                 {
-                  "word": "spare",
-                  "meaning": "饶过，常用于请求句",
-                  "pattern": "ask someone to spare someone"
+                  "word": "appeal for leniency",
+                  "meaning": "请求从轻处理",
+                  "pattern": "appeal to someone for leniency"
                 }
               ],
               "sentences": [
@@ -1379,7 +1379,7 @@
                   "zh": "我知道违反了规定，但请对他从轻处理。"
                 }
               ],
-              "note": "plead for mercy / leniency；spare 是所请求的动作，不是请求者已经宽宥。",
+              "note": "plead for mercy / appeal for leniency 描述请求者的动作；spare 描述处置者饶过某人，不与请求动作混列。",
               "kind": "构造教学材料"
             }
           },
@@ -1813,14 +1813,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "counterpropose",
-                  "meaning": "提出反提案，偏正式",
-                  "pattern": "counterpropose a different arrangement"
+                  "word": "propose an alternative",
+                  "meaning": "回应原案提出替代安排",
+                  "pattern": "propose an alternative to the original plan"
                 },
                 {
-                  "word": "counteroffer",
-                  "meaning": "提出替代条件",
-                  "pattern": "counteroffer a different price"
+                  "word": "make a counteroffer",
+                  "meaning": "回应报价提出不同条件",
+                  "pattern": "make a counteroffer of sixty dollars"
                 }
               ],
               "sentences": [
@@ -1833,7 +1833,7 @@
                   "zh": "你出价五十，六十怎么样？"
                 }
               ],
-              "note": "counterpropose、counteroffer 偏协商用语；日常常直接用 instead / how about。",
+              "note": "须回应可识别的前案；make a counteroffer 尤其常用于价格或合同协商，日常也可直接用 instead / how about。",
               "kind": "构造教学材料"
             }
           },
@@ -2001,8 +2001,8 @@
                   "zh": "等看到报价后再决定吧。"
                 },
                 {
-                  "en": "I'd like to keep both options open for now.",
-                  "zh": "我想暂时保留这两个选项。"
+                  "en": "I'm not choosing either option today; I'll decide after we receive the estimate.",
+                  "zh": "我今天先不选这两个方案中的任何一个，等收到报价后再决定。"
                 }
               ],
               "note": "延后决定不等于拒绝，也不必暂停对话。",
@@ -2029,13 +2029,13 @@
               "verbs": [
                 {
                   "word": "confirm",
-                  "meaning": "确认已有共识",
-                  "pattern": "confirm an agreement"
+                  "meaning": "确认已有共同安排",
+                  "pattern": "confirm what has been agreed"
                 },
                 {
-                  "word": "ratify",
-                  "meaning": "正式批准协议",
-                  "pattern": "ratify an agreement"
+                  "word": "reaffirm",
+                  "meaning": "再次认可已有共识",
+                  "pattern": "reaffirm an agreement"
                 }
               ],
               "sentences": [
@@ -2048,7 +2048,7 @@
                   "zh": "那就定了，按说好的周五见。"
                 }
               ],
-              "note": "ratify 比一般口头确认正式得多；普通对话优先 confirm。",
+              "note": "须有已经形成的共同安排；ratify 特指正式批准，不与普通口头确认当作可互换的常用词。",
               "kind": "构造教学材料"
             }
           }
@@ -2272,8 +2272,8 @@
                   "zh": "我指控你擅自改动了那些数字。"
                 },
                 {
-                  "en": "The complaint alleges that the company withheld wages.",
-                  "zh": "投诉称公司扣发了工资。"
+                  "en": "The company withheld our wages; I am filing a complaint about that.",
+                  "zh": "公司扣发了我们的工资，我要就此提出投诉。"
                 }
               ],
               "note": "构造例不指向真实对象；allege 不宣称指控已获证实。",
@@ -3970,8 +3970,8 @@
                   "zh": "总结一下，我们谈了费用、时间和风险。"
                 },
                 {
-                  "en": "Let me recap the two points still unresolved.",
-                  "zh": "我来归拢一下仍未解决的两点。"
+                  "en": "To recap, we still need to agree on the budget and the delivery date.",
+                  "zh": "归拢一下，我们还需要就预算和交付日期达成一致。"
                 }
               ],
               "note": "收束共同讨论不宣称已达成共识。",
@@ -4135,14 +4135,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "repeat",
-                  "meaning": "重说，通常是所请求动作",
-                  "pattern": "ask someone to repeat something"
+                  "word": "ask for a repeat",
+                  "meaning": "请求再说一次",
+                  "pattern": "ask someone for a repeat of what they said"
                 },
                 {
-                  "word": "say again",
-                  "meaning": "再说一次",
-                  "pattern": "ask someone to say something again"
+                  "word": "request repetition",
+                  "meaning": "请求重说，较正式",
+                  "pattern": "request repetition of a word or phrase"
                 }
               ],
               "sentences": [
@@ -4155,7 +4155,7 @@
                   "zh": "抱歉，我没听清名字，能再说一下吗？"
                 }
               ],
-              "note": "动作短语标明请求方向，避免把 repeat 误作请求者已完成的动作。",
+              "note": "请求者 ask for a repeat / request repetition，对方执行 repeat；日常实际说法常是 Could you say that again?",
               "kind": "构造教学材料"
             }
           },
@@ -4762,8 +4762,8 @@
               ],
               "sentences": [
                 {
-                  "en": "The log shows three failed attempts, which supports the claim that access was blocked.",
-                  "zh": "日志显示有三次失败尝试，这支持了访问受阻的判断。"
+                  "en": "The access log records three explicit permission denials, which supports the claim that access was blocked.",
+                  "zh": "访问日志明确记录了三次权限拒绝，这支持了访问受阻的判断。"
                 },
                 {
                   "en": "To support that estimate, I'd point to last month's sales figures.",
@@ -4878,8 +4878,8 @@
                   "zh": "结构工程师的评估支持了我们的看法：这面墙需要维修。"
                 },
                 {
-                  "en": "According to the specialist's report, this test alone cannot settle the question.",
-                  "zh": "根据专科人员的报告，单靠这项测试无法确定问题。"
+                  "en": "We should not rely on this test alone: the specialist's report says it cannot settle the question by itself.",
+                  "zh": "我们不应只依靠这项测试：专科人员的报告指出，它单独无法确定问题。"
                 }
               ],
               "note": "构造的专业来源，不指真实报告；资格与相关性须另行核验。",
@@ -5205,14 +5205,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "condition",
-                  "meaning": "使取决于条件",
-                  "pattern": "condition approval on something"
+                  "word": "set a condition",
+                  "meaning": "设定判断或行动的条件",
+                  "pattern": "set a condition for proceeding"
                 },
                 {
-                  "word": "qualify",
-                  "meaning": "附加条件限定",
-                  "pattern": "qualify an offer with a condition"
+                  "word": "make conditional",
+                  "meaning": "使取决于某条件",
+                  "pattern": "make approval conditional on a successful test"
                 }
               ],
               "sentences": [
@@ -5225,7 +5225,7 @@
                   "zh": "只要大家对预算达成一致，我们就能继续。"
                 }
               ],
-              "note": "condition 作动词较正式；实际句式常用 if / provided that。",
+              "note": "词组描述设置条件的动作；实际句式常用 if / provided that。条件本身并不决定是在预测、建议还是承诺。",
               "kind": "构造教学材料"
             }
           },
@@ -5772,14 +5772,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "rescale",
-                  "meaning": "重新按尺度表达",
-                  "pattern": "rescale a figure to a common basis"
-                },
-                {
                   "word": "convert",
                   "meaning": "换算单位或时间尺度",
                   "pattern": "convert an annual cost to a monthly cost"
+                },
+                {
+                  "word": "express per unit",
+                  "meaning": "改用每单位数量表达",
+                  "pattern": "express a cost per month / express failures per thousand attempts"
                 }
               ],
               "sentences": [
@@ -5792,7 +5792,7 @@
                   "zh": "一千次尝试中失败十次，失败率是百分之一。"
                 }
               ],
-              "note": "保留分母和换算口径；rescale 较技术，日常也可用 express per …。",
+              "note": "保留分母和换算口径；按月、按年或每千次表达属于尺度变换，不凭换算改变原始事实。",
               "kind": "构造教学材料"
             }
           }
@@ -6003,9 +6003,9 @@
             "english": {
               "verbs": [
                 {
-                  "word": "contextualize",
-                  "meaning": "放入背景，较正式",
-                  "pattern": "contextualize a decision"
+                  "word": "add context",
+                  "meaning": "补充理解所需背景",
+                  "pattern": "add context to a discussion"
                 },
                 {
                   "word": "fill in",
@@ -6023,7 +6023,7 @@
                   "zh": "在讨论这次回复之前，要知道那条请求是在关门后收到的。"
                 }
               ],
-              "note": "背景可以后来用作理由，补入背景本身不必已经建立因果。",
+              "note": "背景可以后来用作理由，补入背景本身不必已经建立因果；fill someone in 是向该人补充情况。",
               "kind": "构造教学材料"
             }
           },
@@ -6362,8 +6362,8 @@
                   "zh": "你可能会反对说这更费时；起初确实如此，但以后能减少返工。"
                 },
                 {
-                  "en": "One possible concern is cost; we can test that with a small pilot.",
-                  "zh": "一个可能的担忧是成本，我们可以通过小规模试点检验。"
+                  "en": "One possible objection is that this costs too much. We can start with a small pilot to limit the initial expense.",
+                  "zh": "一个可能的反对意见是成本太高，我们可以先做小规模试点，限制初期支出。"
                 }
               ],
               "note": "明示这是可能异议，不冒充对方原话。",
@@ -6813,8 +6813,8 @@
               ],
               "sentences": [
                 {
-                  "en": "Open the draft—the one dated Monday; is that the file you have?—and check the heading.",
-                  "zh": "打开草稿，就是周一那份，你手里的是这份吗？然后检查标题。"
+                  "en": "Open the draft—the one dated Monday, do you have that version?—and check the heading.",
+                  "zh": "打开草稿，就是周一那份，你有那个版本吗？然后检查标题。"
                 },
                 {
                   "en": "We'll ask Alex—you know which Alex I mean, right?—to review it.",
@@ -6920,14 +6920,14 @@
             "english": {
               "verbs": [
                 {
-                  "word": "parallel",
-                  "meaning": "使结构对应",
-                  "pattern": "parallel one clause with another"
+                  "word": "repeat a sentence pattern",
+                  "meaning": "复用句法骨架",
+                  "pattern": "repeat the same sentence pattern across clauses"
                 },
                 {
-                  "word": "structure",
-                  "meaning": "按重复骨架组织",
-                  "pattern": "structure statements in parallel"
+                  "word": "arrange in parallel",
+                  "meaning": "按平行结构排列",
+                  "pattern": "arrange clauses in parallel"
                 }
               ],
               "sentences": [
@@ -6940,7 +6940,7 @@
                   "zh": "问发生了什么变化，问为何变化，问接下来会怎样。"
                 }
               ],
-              "note": "parallel 作动词偏写作分析；实际表达体现重复句法骨架。",
+              "note": "保留 sentence pattern / clauses 等搭配，明确复现的是句法结构；不用宽泛的 parallel 动词代替此操作。",
               "kind": "构造教学材料"
             }
           },
